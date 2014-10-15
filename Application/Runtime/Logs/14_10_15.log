@@ -1,0 +1,793 @@
+[ 2014-10-15T18:56:38+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002192s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002421s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002573s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002423s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002326s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002341s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2014-10-15T19:04:28+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002724s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002337s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002514s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002206s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002289s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002276s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2014-10-15T19:06:14+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002780s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002279s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002421s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002338s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002347s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002539s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2014-10-15T19:06:15+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002273s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002253s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002401s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002210s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002045s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002336s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2014-10-15T19:08:46+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002619s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002466s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002338s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002566s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002824s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002434s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2014-10-15T19:08:48+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/function/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002984s ]
+SQL: SELECT * FROM `ea_function` WHERE ( `id` = 1 )  [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2014-10-15T19:13:06+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.021984s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002580s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002193s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002187s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002022s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002429s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2014-10-15T19:13:09+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002344s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2014-10-15T19:14:05+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002404s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2014-10-15T19:16:22+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002242s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002698s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002468s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002363s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002355s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002399s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-10-15T19:16:26+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003209s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 4 )  [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2014-10-15T19:17:22+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002323s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002242s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002511s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002093s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002269s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002197s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2014-10-15T19:18:06+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002493s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 5 )  [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2014-10-15T19:57:48+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002504s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002454s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002844s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002362s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002535s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002330s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2014-10-15T19:57:50+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/function/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003201s ]
+SQL: SELECT * FROM `ea_function` WHERE ( `id` = 1 )  [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+
+[ 2014-10-15T19:57:51+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/function/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. D:\wamp\www\Jczd\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 330 行.
+SQL: SELECT * FROM `ea_` WHERE ( `id` = '' )  [ RunTime:0.000398s ]
+ERR: 1146:Table 'test.ea_' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ea_` WHERE ( `id` = '' ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+
+[ 2014-10-15T19:58:10+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002628s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` LIMIT 6   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002884s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` LIMIT 6   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002306s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` LIMIT 6   [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002310s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` LIMIT 6   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002321s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` LIMIT 6   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002374s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` LIMIT 6   [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined index: content D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2014-10-15T19:58:14+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002387s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2014-10-15T19:58:30+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002636s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2014-10-15T19:58:31+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002892s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2014-10-15T19:58:31+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002486s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2014-10-15T19:58:32+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002627s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2014-10-15T19:58:33+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002614s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000825s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000979s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2014-10-15T19:58:33+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002514s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2014-10-15T19:58:34+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002331s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2014-10-15T19:58:34+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003118s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2014-10-15T19:59:35+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002601s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-10-15T20:02:33+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002808s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000409s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\wamp\www\Jczd\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: title D:\wamp\www\Jczd\Application\Home\Controller\IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2014-10-15T20:02:45+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002643s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\Jczd\Application\Home\Controller\IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2014-10-15T20:03:02+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002478s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2014-10-15T20:03:13+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003961s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002880s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2014-10-15T20:05:13+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002414s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 3 )  [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: function D:\wamp\www\Jczd\Application\Runtime\Cache\Home\2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
