@@ -1,1 +1,5 @@
-<p>信息公开</p>
+<ul>
+	<foreach name='info' item='v'>
+		<li><a href="{:U('Index/handleArticle',array('type'=>'info','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+	</foreach>
+</ul>

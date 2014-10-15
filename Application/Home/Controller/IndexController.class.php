@@ -16,11 +16,8 @@ class IndexController extends Controller {
     }
 
     public function handleArticle(){
-    	//$this->assign('article',M(I('type'))->where(array('id'=>I('id')))->select())->display('Index/handleArticle');
         $this->article = M(I('type'))->where(array('id'=>I('id')))->select();
         $this->display('Index/handle');
-        // $article = M(I('type'))->where(array('id'=>I('id')))->select();
-        // echo ($article[0]['content']);
     }
 }
 ?>
