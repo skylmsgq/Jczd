@@ -40,7 +40,7 @@ span.current{border:navy 1px solid;padding:3px
 7px;font-weight:bold;color:#fff;margin-right:2px;background-color:#417eb7}div.page
 span.disabled{padding:3px
 7px;border:#929292 1px solid;color:#929292;margin-right:2px}*{margin:0;padding:0}html,body{height:100%;font:12px/100% Verdana, Geneva, sans-serif;overflow:hidden;min-width:600px;min-height:500px}* html, * html
-body{background-image:url(/Jczd/Public/stylesheets/admin/about:blank);background-attachment:fixed;min-width:600px}#Top{background:url(/Jczd/Public/images/admin/x-bg.gif) repeat-x top;height:70px}#Tags{height:60px;background:url(/Jczd/Public/images/admin/x-bg.gif) repeat-x left -200px;position:relative}#Left{width:206px;background:url(/Jczd/Public/images/admin/y-bg.gif) repeat-y 0 0px;margin-top:-12px;float:left;position:relative}#Right{overflow-x:hidden;overflow-y:scroll;float:right;position:relative;padding-right:10px}#Bottom{line-height:20px;bottom:0;background:#F9F7EA;border-top:1px solid #EFE6BB;bottom:0;color:#B9DDFF;font-size:11px;text-align:center;position:fixed;width:100%}.commonBtnArea{border-top:1px solid #D8D8D8;padding:10px
+body{background-image:url(/Jczd/Public/stylesheets/admin/about:blank);background-attachment:fixed;min-width:600px}#Top{background:url(/Jczd/Public/images/admin/x-bg.gif) repeat-x top;height:70px}#Tags{height:60px;background:url(/Jczd/Public/images/admin/x-bg.gif) repeat-x left -200px;position:relative}#Left{width:206px;background:url(/Jczd/Public/images/admin/y-bg.gif) repeat-y 0 0px;margin-top:-12px;float:left;position:relative}#Right{overflow-x:hidden;overflow-y:scroll;float:right;position:relative;padding-right:10px}#Bottom{line-height:20px;bottom:0;background:#F9F7EA;border-top:1px solid #EFE6BB;bottom:0;color:blue;font-size:13px;text-align:center;position:fixed;width:100%}.commonBtnArea{border-top:1px solid #D8D8D8;padding:10px
 20px;background:#F5F5F5;right:16px;bottom:20px;position:fixed}#Left
 .QRcode{position:absolute;left:0;bottom:5px;text-align:center;width:100%}.logo{position:absolute;left:0px;top:0px;width:200px;height:65px;line-height:65px;overflow:hidden;text-align:center;vertical-align:bottom}.logo
 img{vertical-align:bottom;margin:5px
@@ -48,9 +48,9 @@ img{vertical-align:bottom;margin:5px
 a{color:#333}.help
 span{margin-left:30px}.menu{height:31px;line-height:31px;margin-left:230px}.menu
 ul{margin-top:39px;float:left;background:url(/Jczd/Public/images/admin/x-bg.gif) repeat-x left -80px}.menu
-li{min-width:120px;margin-left:50px;float:left;text-align:center}.menu
-li.fisrt{margin-left:0px;background:url(/Jczd/Public/images/admin/x-bg.gif) no-repeat left -120px}.menu li.fisrt
-span{margin-right:-15px}.menu
+li{min-width:120px;margin-left:25px;float:left;text-align:center}.menu
+li.fisrt{background:url(/Jczd/Public/images/admin/x-bg.gif) no-repeat left -120px}.menu li.fisrt
+span{margin-left:-15px;margin-right:-15px}.menu
 li.end{background:url(/Jczd/Public/images/admin/x-bg.gif) no-repeat right -160px}.menu li.end
 span{padding-right:20px}.menu li
 a{color:#333;text-shadow:0 1px 0 #fefefe}.menu li.current a, .menu li.fisrt_current a, .menu li.end_current

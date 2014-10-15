@@ -1,65 +1,65 @@
 <?php
 return array (
-  'Function' => 
-  array (
-    'name' => '机构职能管理',
-    'target' => 'Function/index',
-    'sub_menu' => 
-    array (
-      0 => 
-      array (
-        'item' => 
-        array (
-          'Function/index' => '机构职能管理',
-        ),
-      ),
-      1 => 
-      array (
-        'item' => 
-        array (
-          'Function/add' => '添加机构职能',
-        ),
-      ),
-      2 => 
-      array (
-        'item' => 
-        array (
-          'Function/edit' => '编辑机构职能',
-        ),
-        'hidden' => true,
-      ),
-    ),
-  ),
-  'Info' => 
-  array (
-    'name' => '信息公开管理',
-    'target' => 'Info/index',
-    'sub_menu' => 
-    array (
-      0 => 
-      array (
-        'item' => 
-        array (
-          'Info/index' => '信息公开管理',
-        ),
-      ),
-      1 => 
-      array (
-        'item' => 
-        array (
-          'Info/add' => '添加信息公开',
-        ),
-      ),
-      2 => 
-      array (
-        'item' => 
-        array (
-          'Info/edit' => '编辑信息公开',
-        ),
-        'hidden' => true,
-      ),
-    ),
-  ),
+  // 'Function' => 
+  // array (
+  //   'name' => '机构职能管理',
+  //   'target' => 'Function/index',
+  //   'sub_menu' => 
+  //   array (
+  //     0 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Function/index' => '机构职能管理',
+  //       ),
+  //     ),
+  //     1 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Function/add' => '添加机构职能',
+  //       ),
+  //     ),
+  //     2 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Function/edit' => '编辑机构职能',
+  //       ),
+  //       'hidden' => true,
+  //     ),
+  //   ),
+  // ),
+  // 'Info' => 
+  // array (
+  //   'name' => '信息公开管理',
+  //   'target' => 'Info/index',
+  //   'sub_menu' => 
+  //   array (
+  //     0 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Info/index' => '信息公开管理',
+  //       ),
+  //     ),
+  //     1 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Info/add' => '添加信息公开',
+  //       ),
+  //     ),
+  //     2 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Info/edit' => '编辑信息公开',
+  //       ),
+  //       'hidden' => true,
+  //     ),
+  //   ),
+  // ),
   'Report' => 
   array (
     'name' => '抽验报告管理',
@@ -175,6 +175,36 @@ return array (
         'item' => 
         array (
           'Policy/edit' => '编辑政务动态',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
+  'Law' => 
+  array (
+    'name' => '法律法规管理',
+    'target' => 'Law/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Law/index' => '法律法规管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Law/add' => '添加法律法规',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Law/edit' => '编辑法律法规',
         ),
         'hidden' => true,
       ),

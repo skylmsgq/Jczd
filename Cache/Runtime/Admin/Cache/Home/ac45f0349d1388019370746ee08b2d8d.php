@@ -163,7 +163,7 @@ $(function(){
 
         <!-- footer -->
         <div id="Bottom">
-    © 2014 Easy-Admin，Github项目地址：<a target="_blank" href="https://github.com/happen-zhang/easy-admin" target="_blank" >happen-zhang</a> Easy-Admin后台管理系统 All rights reserved
+    © 2014 SJTU OmniLab，Github项目地址：<a target="_blank" href="https://github.com/skylmsgq/Jczd" target="_blank" >sky&zhl</a> 后台管理系统 All rights reserved
 </div>
 
     </div>
