@@ -1,6 +1,4 @@
 <h1>{$article[0].title}</h1>
 <h2>{$article[0].tag}</h2>
 <h3>{$article[0].updated_at|date='Y-m-d H:i',###}</h3>
-<?php
-	echo html_entity_decode($article[0]['content']);
-?>
+{$article[0]['content']}

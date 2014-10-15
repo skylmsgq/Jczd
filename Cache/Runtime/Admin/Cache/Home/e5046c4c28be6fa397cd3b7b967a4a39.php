@@ -4,12 +4,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <title><?php echo C('SITE_TITLE');?> - 后台管理系统</title>
-    <base href="/gov/admin/admin.php/Home" />
+    <base href="/Jczd/admin.php/Home" />
     <!-- css -->
-    <link rel="stylesheet" type="text/css" href="/gov/admin/Public/Min/?f=/gov/admin/Public/stylesheets/admin/base.css|/gov/admin/Public/stylesheets/admin/layout.css|/gov/admin/Public/javascripts/admin/asyncbox/skins/default.css" />
+    <link rel="stylesheet" type="text/css" href="/Jczd/Public/Min/?f=/Jczd/Public/stylesheets/admin/base.css|/Jczd/Public/stylesheets/admin/layout.css|/Jczd/Public/javascripts/admin/asyncbox/skins/default.css" />
 
     <!-- js -->
-    <script type="text/javascript" src="/gov/admin/Public/Min/?f=/gov/admin/Public/javascripts/admin/jquery-1.7.2.min.js|/gov/admin/Public/javascripts/admin/jquery.lazyload.js|/gov/admin/Public/javascripts/admin/functions.js|/gov/admin/Public/javascripts/admin/base.js|/gov/admin/Public/javascripts/admin/jquery.form.js|/gov/admin/Public/javascripts/admin/asyncbox/asyncbox.js|/gov/admin/Public/javascripts/admin/jquery.watermark.js|/gov/admin/Public/javascripts/admin/datepicker/datetimepicker_css.js">
+    <script type="text/javascript" src="/Jczd/Public/Min/?f=/Jczd/Public/javascripts/admin/jquery-1.7.2.min.js|/Jczd/Public/javascripts/admin/jquery.lazyload.js|/Jczd/Public/javascripts/admin/functions.js|/Jczd/Public/javascripts/admin/base.js|/Jczd/Public/javascripts/admin/jquery.form.js|/Jczd/Public/javascripts/admin/asyncbox/asyncbox.js|/Jczd/Public/javascripts/admin/jquery.watermark.js|/Jczd/Public/javascripts/admin/datepicker/datetimepicker_css.js">
 </script>
 
 <script type="text/javascript">
@@ -35,7 +35,7 @@
         <!-- header -->
         <div id="Top">
     <div class="logo">
-        <a href="<?php echo U('Index/index');?>"><img src="/gov/admin/Public/images/admin/logo.png" />
+        <a href="<?php echo U('Index/index');?>"><img src="/Jczd/Public/images/admin/logo.png" />
         </a>
     </div>
 

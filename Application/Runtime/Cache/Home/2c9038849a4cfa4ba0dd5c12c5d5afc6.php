@@ -39,6 +39,7 @@
     <li><a href="<?php echo U('News/index');?>" title="">食品药品监管新闻</a></li>
     <li><a href="<?php echo U('Notice/index');?>" title="">文件通知</a></li>
     <li><a href="<?php echo U('Policy/index');?>" title="">政务动态</a></li>
+    <li><a href="<?php echo U('Law/index');?>" title="">法律法规</a></li>
    </ul>
    <ul class="nav_right">
     <li><a href="#" onclick="alert('此功能施工中...')"title="">加入收藏夹</a><span>|</span></li>
@@ -58,12 +59,10 @@
       <?php echo ($v["content"]); endforeach; endif; ?> -->
    </div>
    <div class="content_left">
-<h1><?php echo ($article[0]["title"]); ?></h1>
-<h2><?php echo ($article[0]["tag"]); ?></h2>
+<h1><?php echo (stripslashes($article[0]["title"])); ?></h1>
+<h2><?php echo (stripslashes($article[0]["tag"])); ?></h2>
 <h3><?php echo (date('Y-m-d H:i',$article[0]["updated_at"])); ?></h3>
-<?php
- echo html_entity_decode($article[0]['content']); ?>
-
+<?php echo (stripslashes(html_entity_decode($article[0]['content']))); ?>
      
    </div><!--content_left end-->
    <div class="content_right">

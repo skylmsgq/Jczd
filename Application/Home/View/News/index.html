@@ -1,1 +1,5 @@
-<p>食品药品监管新闻</p>
+<ul>
+	<foreach name='news' item='v'>
+		<li><a href="{:U('Index/handleArticle',array('type'=>'news','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+	</foreach>
+</ul>

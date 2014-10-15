@@ -60,7 +60,7 @@
    </div>
    <div class="content_left">
 <ul>
-	<?php if(is_array($info)): foreach($info as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'info','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?><span class='fr'><?php echo (date('Y-m-d H:i',$v["updated_at"])); ?></span></a></li><?php endforeach; endif; ?>
+	<?php if(is_array($law)): foreach($law as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'law','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?><span class='fr'><?php echo (date('Y-m-d H:i',$v["updated_at"])); ?></span></a></li><?php endforeach; endif; ?>
 </ul>
      
    </div><!--content_left end-->

@@ -9,9 +9,9 @@
           <li><a href="http://v.ifeng.com/news/mainland/201311/01b249a6-5c86-4970-8152-4a5525cd562a.shtml" title=""><img src="__PUBLIC__/images/app/ct6.jpg" width="372px" height="242px" alt="[文汇报] 曝三中全会将划最严生态红线 逾线官员将被问责"></a></li>
         </ul>
       </div><!--fader(banner) end-->
-      <script type="text/javascript" src="__PUBLIC__/javascript/app/banner2.js"></script> 
-      <div class="menu">
-       <h1>信息公开<a class="more" href="" title="">更多>></a></h1>
+      <script type="text/javascript" src="__PUBLIC__/javascripts/app/banner2.js"></script> 
+      <!--div class="menu">
+       <h1>信息公开<a class="more" href="{:U('Info/index')}" title="信息公开" target="blank">More</a></h1>
        <div class="clear"></div>
        <div class="list">
         <ul>
@@ -19,10 +19,49 @@
           <li><a href="{:U('Index/handleArticle',array('type'=>'info','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
         </foreach>
       </ul>
-    </div><!--list end-->
-  </div><!--scdt end-->
+    </div>
+  </div--><!--scdt end-->
+
   <div class="menu">
-   <h1>食品药品监管新闻<a class="more" href="" title="">更多>></a></h1>
+   <h1>文件通知<a class="more" href="{:U('Notice/index')}" title="文件通知" target="blank">More</a></h1>
+   <div class="clear"></div>
+   <div class="list">
+    <ul>                    
+      <foreach name='notice' item='v'>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'notice','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+      </foreach>                       
+    </ul>
+  </div><!--list end-->
+</div><!--dfdt end-->
+
+ <div class="menu">
+   <h1>机构职能<a class="more" href="{:U('Function/index')}" title="机构职能" target="blank">More</a></h1>
+   <div class="clear"></div>
+   <div class="list">
+    <ul>                    
+      <foreach name='function' item='v'>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'function','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+      </foreach>                       
+    </ul>
+  </div><!--list end-->
+</div><!--dfdt end-->
+</div><!--top_left_zuo end-->
+
+<div class="left_top_right">
+  <div class="menu">
+   <h1>政务动态<a class="more" href="{:U('Policy/index')}" title="政务动态" target="blank">More</a></h1>
+   <div class="clear"></div>
+   <div class="list">
+    <ul>                    
+      <foreach name='policy' item='v'>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'policy','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+      </foreach>                       
+    </ul>
+  </div><!--list end-->
+</div><!--dfdt end-->
+
+<div class="menu">
+   <h1>食品药品监管<a class="more" href="{:U('News/index')}" title="食品药品监管" target="blank">More</a></h1>
    <div class="clear"></div>
    <div class="list">
     <ul>
@@ -32,22 +71,9 @@
     </ul>  
   </div>      
 </div><!--hyaq end-->
-</div><!--top_left_zuo end-->
 
-<div class="left_top_right">
   <div class="menu">
-    <h1>机构职能<a class="more" href="" title="" tar>更多>></a></h1>
-    <div class="clear"></div>
-    <div class="list">
-      <ul>                   
-        <foreach name='function' item='v'>
-          <li><a href="{:U('Index/handleArticle',array('type'=>'function','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
-        </foreach>
-      </ul>
-    </div>
-  </div><!--hyyw end-->
-  <div class="menu">
-    <h1>抽验报告<a class="more" href="" title="">更多>></a></h1>
+    <h1>抽验报告<a class="more" href="{:U('Report/index')}" title="抽验报告" target="blank">More</a></h1>
     <div class="clear"></div>
     <div class="list">
       <ul>
@@ -57,13 +83,14 @@
       </ul>
     </div>
   </div><!--hyfx end-->
+  
   <div class="menu">
-   <h1>文件通知<a class="more" href="" title="">更多>></a></h1>
+   <h1>法律法规<a class="more" href="{:U('law/index')}" title="法律法规" target="blank">More</a></h1>
    <div class="clear"></div>
    <div class="list">
     <ul>                    
-      <foreach name='notice' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'notice','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+      <foreach name='law' item='v'>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'law','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
       </foreach>                       
     </ul>
   </div><!--list end-->

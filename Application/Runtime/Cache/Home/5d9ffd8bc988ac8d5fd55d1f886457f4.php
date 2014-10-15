@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
 <title>合肥市食品药品稽查支队</title>
-<link href="/gov/app/Public/css/style.css" type="text/css" rel="stylesheet" />
-<link rel="stylesheet" type="text/css" href="/gov/app/Public/css/header.css" />
-<link rel="stylesheet" type="text/css" href="/gov/app/Public/css/global.css" />
-<script type="text/javascript" src="/gov/app/Public/js/banner1.js"></script>
+<link href="/Jczd/Public/stylesheets/app/style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/Jczd/Public/stylesheets/app/header.css" />
+<link rel="stylesheet" type="text/css" href="/Jczd/Public/stylesheets/app/global.css" />
+<script type="text/javascript" src="/Jczd/Public/javascripts/app/banner1.js"></script>
 </head>
 <body>
 <!--top begin-->
@@ -22,7 +22,7 @@
  <div class="wrap">
   
   <div class="search_box">
-   <a href="#" title="" target="_blank"><img src="/gov/app/Public/images/logo.jpg" width="1004px" height="173px"  alt="" class="fl"/></a>
+   <a href="#" title="" target="_blank"><img src="/Jczd/Public/images/app/logo.jpg" width="1004px" height="173px"  alt="" class="fl"/></a>
       
    </div>
    <div class="cb"></div>
@@ -39,6 +39,7 @@
     <li><a href="<?php echo U('News/index');?>" title="">食品药品监管新闻</a></li>
     <li><a href="<?php echo U('Notice/index');?>" title="">文件通知</a></li>
     <li><a href="<?php echo U('Policy/index');?>" title="">政务动态</a></li>
+    <li><a href="<?php echo U('Law/index');?>" title="">法律法规</a></li>
    </ul>
    <ul class="nav_right">
     <li><a href="#" onclick="alert('此功能施工中...')"title="">加入收藏夹</a><span>|</span></li>
@@ -58,33 +59,35 @@
       <?php echo ($v["content"]); endforeach; endif; ?> -->
    </div>
    <div class="content_left">
-<p>抽验报告</p>
+<ul>
+	<?php if(is_array($report)): foreach($report as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'report','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?><span class='fr'><?php echo (date('Y-m-d H:i',$v["updated_at"])); ?></span></a></li><?php endforeach; endif; ?>
+</ul>
      
    </div><!--content_left end-->
    <div class="content_right">
       <div class="rdsp">
         <h1>热点视频</h1>
         <ul>
-            <li><a href="http://news.xinhuanet.com/video/2013-11/19/c_125728773.htm" title="" target="_blank"><img src="/gov/app/Public/images/rdsp.jpg" width="108px" height="110px" alt="" /><span>习近平:宣讲要讲全、讲透、讲实</span></a></li>
-            <li><a href="http://news.xinhuanet.com/video/2013-11/19/c_125725627.htm" title="" target="_blank"><img src="/gov/app/Public/images/rdsp.jpg" width="108px" height="110px" alt="" /><span>三中全会《决定》诞生记</span></a></li>
-            <li><a href="http://news.xinhuanet.com/video/2013-11/21/c_125740204.htm" title="" target="_blank"><img src="/gov/app/Public/images/rdsp.jpg" width="108px" height="110px" alt="" /><span>驻华使节解读十八届三中全会精神</span></a></li>
-            <li><a href="http://news.xinhuanet.com/video/2013-11/20/c_125735659.htm" title="" target="_blank"><img src="/gov/app/Public/images/rdsp.jpg" width="108px" height="110px" alt="" /><span>政协十二届常委会第三次会议闭幕</span></a></li>
+            <li><a href="http://news.xinhuanet.com/video/2013-11/19/c_125728773.htm" title="" target="_blank"><img src="/Jczd/Public/images/app/rdsp.jpg" width="108px" height="110px" alt="" /><span>习近平:宣讲要讲全、讲透、讲实</span></a></li>
+            <li><a href="http://news.xinhuanet.com/video/2013-11/19/c_125725627.htm" title="" target="_blank"><img src="/Jczd/Public/images/app/rdsp.jpg" width="108px" height="110px" alt="" /><span>三中全会《决定》诞生记</span></a></li>
+            <li><a href="http://news.xinhuanet.com/video/2013-11/21/c_125740204.htm" title="" target="_blank"><img src="/Jczd/Public/images/app/rdsp.jpg" width="108px" height="110px" alt="" /><span>驻华使节解读十八届三中全会精神</span></a></li>
+            <li><a href="http://news.xinhuanet.com/video/2013-11/20/c_125735659.htm" title="" target="_blank"><img src="/Jczd/Public/images/app/rdsp.jpg" width="108px" height="110px" alt="" /><span>政协十二届常委会第三次会议闭幕</span></a></li>
         </ul>
       </div><!--rdsp end-->
            <div class="rwzf">
                <h1>人物专访</h1>
                <div class="intro">
-                  <a href="" title=""><img src="/gov/app/Public/images/rwzf1.jpg" width="100px" height="113px" alt="" /></a>
+                  <a href="" title=""><img src="/Jczd/Public/images/app/rwzf1.jpg" width="100px" height="113px" alt="" /></a>
                   <h2><a href="http://www.news.cn/xhft/20131112a/" title="">宋世明</a></h2>
                   <p>国家行政学院公共管理教研部教授宋世明做客新华访谈...<a href="http://www.news.cn/xhft/20131112a/" title="">[详细]</a></p>
                </div><!--intro end-->
                <div class="intro">
-                  <a href="" title=""><img src="/gov/app/Public/images/rwzf2.jpg" width="100px" height="113px" alt="" /></a>
+                  <a href="" title=""><img src="/Jczd/Public/images/app/rwzf2.jpg" width="100px" height="113px" alt="" /></a>
                   <h2><a href="http://www.news.cn/xhft/20131113a/" title="">任建明</a></h2>
                   <p>中央纪委监察部特邀监察员任建明做客新华网访谈室...<a href="http://www.news.cn/xhft/20131113a/" title="">[详细]</a></p>
                </div><!--intro end-->
                <div class="intro">
-                  <a href="" title=""><img src="/gov/app/Public/images/rwzf3.jpg" width="100px" height="113px" alt="" /></a>
+                  <a href="" title=""><img src="/Jczd/Public/images/app/rwzf3.jpg" width="100px" height="113px" alt="" /></a>
                   <h2><a href="http://www.news.cn/xhft/20131112a/" title="">周天勇</a></h2>
                   <p>中央党校国际战略研究所副所长周天勇做客新华访谈...<a href="http://www.news.cn/xhft/20131112a/" title="">[详细]</a></p>
                </div><!--intro end-->
