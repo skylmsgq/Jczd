@@ -4,7 +4,7 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile ~/.gitignore_global
 
-./Cache
-./Application/Runtime
-./Common
-./Application/Common/Conf
+Cache/
+Application/Runtime/
+Common/
+Application/Common/Conf/
