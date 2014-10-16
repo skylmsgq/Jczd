@@ -3,16 +3,29 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
 <title>合肥市食品药品稽查支队</title>
+<!--link rel="shortcut icon" href="favicon.ico" /-->
 <link href="__PUBLIC__/stylesheets/app/style.css" type="text/css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/stylesheets/app/header.css" />
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/stylesheets/app/global.css" />
 <script type="text/javascript" src="__PUBLIC__/javascripts/app/banner1.js"></script>
+<script type="text/javascript" src="__PUBLIC__/javascripts/app/jquery.min.js"></script>
+<script type="text/javascript"> 
+  $(function(){
+    var time=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());  
+    $('.currentTime').text(time);
+    setInterval(function(){
+      time=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());  
+      $('.currentTime').text(time);
+    },1000);
+  });
+</script>
 </head>
 <body>
 <!--top begin-->
 <div class="top">
  <div class="wrap">
   <span class="fl">合肥市食品药品稽查支队</span>
+  <span class='fr currentTime'></span>
  </div>
 </div>
 
@@ -34,7 +47,7 @@
    <ul class="nav_left">
     <li><a href="{:U('Index/index')}">首 页</a></li>
     <li><a href="{:U('Function/index')}" title="">机构职能</a></li>
-    <li><a href="{:U('Info/index')}" title="">信息公开</a></li>
+    <!--li><a href="{:U('Info/index')}" title="">信息公开</a></li-->
     <li><a href="{:U('Report/index')}" title="">抽验报告</a></li>
     <li><a href="{:U('News/index')}" title="">食品药品监管</a></li>
     <li><a href="{:U('Notice/index')}" title="">文件通知</a></li>
@@ -78,19 +91,19 @@
 </div>
 <div class="clear"></div><!--清除浮动-->
    <div class="link">
-      <h1></h1>
+      <h1>友情链接</h1>
       <ul>
-         <li><img href="__PUBLIC__/images/app/sfda.gif" title=""></li>
-         <li><a href="http://news.ifeng.com/" title="">凤凰新闻</a></li>
-         <li><a href="http://news.sina.com.cn/" title="">新浪新闻</a></li>
-         <li><a href="http://news.qq.com/" title="">滕讯新闻</a></li>
+         <li><a href="http://www.xinhuanet.com/" title="" target='blank'>新华网</a></li>
+         <li><a href="http://news.ifeng.com/" title="" target='blank'>凤凰新闻</a></li>
+         <li><a href="http://news.sina.com.cn/" title="" target='blank'>新浪新闻</a></li>
+         <li><a href="http://news.qq.com/" title="" target='blank'>滕讯新闻</a></li>
       </ul>
    </div><!--link end-->
 </div><!--content end-->
 <div class="footer">
    <ul>
        <li class="li_left">合肥市食品药品稽查支队</li>
-       <li class="li_right">2014-10</li>
+       <li class="li_right currentTime"></li>
      
    </ul>
 </div><!--footer end-->

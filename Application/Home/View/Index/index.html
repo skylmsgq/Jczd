@@ -28,7 +28,7 @@
    <div class="list">
     <ul>                    
       <foreach name='notice' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'notice','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'notice','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
       </foreach>                       
     </ul>
   </div><!--list end-->
@@ -40,7 +40,7 @@
    <div class="list">
     <ul>                    
       <foreach name='function' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'function','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'function','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
       </foreach>                       
     </ul>
   </div><!--list end-->
@@ -54,7 +54,7 @@
    <div class="list">
     <ul>                    
       <foreach name='policy' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'policy','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'policy','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
       </foreach>                       
     </ul>
   </div><!--list end-->
@@ -66,7 +66,7 @@
    <div class="list">
     <ul>
       <foreach name='news' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'news','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'news','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
       </foreach>
     </ul>  
   </div>      
@@ -78,7 +78,7 @@
     <div class="list">
       <ul>
         <foreach name='report' item='v'>
-          <li><a href="{:U('Index/handleArticle',array('type'=>'report','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+          <li><a href="{:U('Index/handleArticle',array('type'=>'report','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
         </foreach>
       </ul>
     </div>
@@ -90,7 +90,7 @@
    <div class="list">
     <ul>                    
       <foreach name='law' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'law','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
+        <li><a href="{:U('Index/handleArticle',array('type'=>'law','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
       </foreach>                       
     </ul>
   </div><!--list end-->

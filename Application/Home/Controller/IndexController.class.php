@@ -6,12 +6,13 @@ header("Content-type: text/html; charset=utf-8");
 
 class IndexController extends Controller {
     public function index(){
-    	$this->function = M('function')->limit(6)->field('id,title,updated_at')->select();
-    	$this->info = M('info')->limit(6)->field('id,title,updated_at')->select();
-    	$this->news = M('news')->limit(6)->field('id,title,updated_at')->select();
-    	$this->notice = M('notice')->limit(6)->field('id,title,updated_at')->select();
-    	$this->policy = M('policy')->limit(6)->field('id,title,updated_at')->select();
-    	$this->report = M('report')->limit(6)->field('id,title,updated_at')->select();
+    	$this->function = M('function')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
+    	$this->info = M('info')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
+    	$this->news = M('news')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
+    	$this->notice = M('notice')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
+    	$this->policy = M('policy')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
+    	$this->report = M('report')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
+        $this->law = M('law')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
     	$this->display('Index/index');
     }
 
