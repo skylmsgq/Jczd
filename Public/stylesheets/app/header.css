@@ -11,7 +11,7 @@ a:hover{ color:#de3237; text-decoration:none}
 .top{ width:100%; background:#f7f7f7; border-bottom:1px solid #dad9d7; height:28px; line-height:28px;}
 /**header**/
 .header{ width:100%; padding-bottom:10px;}
-.search_box{ margin-left: -22px;}
+.search_box{ margin-left: -43px;}
 .search{ width:520px; height:68px;float:right;}
 #lenu1 li{float:left;display:block;cursor:pointer;width:58px;text-align:center;line-height:29px;height:29px;}
 #lenu1 li span{ float:right; color:#c0c0c0; font-weight:normal}
@@ -21,7 +21,7 @@ a:hover{ color:#de3237; text-decoration:none}
 .serbtn{width:97px; height:30px; background:none; border:none;cursor:pointer; color:#fff; font-size:14px; font-weight:bold}
 #lain1 ul{display:none;text-align:left;}
 #lain1 ul.block{display: block;}
-.nav{ width:1004px; border:1px solid #304EC3; border-left:0; border-right:0; height:32px; line-height:32px; background:#505EEF;}
+.nav{ width:1004px; border:1px solid #304EC3; border-left:0; border-right:0; height:32px; line-height:32px; background:rgba(26,71,143,0.9);}
 .nav_left{ float:left;}
 .nav_left li{ float:left; margin-right:7px;}
 .nav_left li a:link,.nav_left li a:visited{ color:#fff; font-size:14px; font-weight:bold; padding:0 15px; line-height:32px; text-decoration:none; display:block;}
