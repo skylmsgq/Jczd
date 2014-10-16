@@ -10,6 +10,11 @@ img{border:none;}
 
 .content{width:1004px;margin:0 auto;}
 
+.search_box img{
+	position: relative;
+	left: 21px;
+}
+
 .menu {
 	border: 1px solid rgba(60,60,60,0.2);
 	margin-top: 10px;
@@ -23,6 +28,18 @@ img{border:none;}
 	padding: 3px 15px;
 	font-size: 15px;
 	color: #fff;
+}
+.menu .titlePic {
+	width: 16px;
+	position: relative;
+	top: 3px;
+	left: 5px;
+}
+.menuRight .titlePic {
+	width: 17px;
+	position: relative;
+	top: 2px;
+	left: 5px;
 }
 .menu .more {
 	font-size: 12px;
@@ -56,38 +73,65 @@ img{border:none;}
 	border-radius: 6px;
 	background-color: rgba(128,196,240,0.2);
 }
-.info{
-	background-color: #fff;
-}
 .menuRight h1{
-	background-image: url(../../images/app/title.jpg);
+	background-image: url(../../images/app/titleRight.jpg);
 	background-size: 100% 100%;
 	/*background-color: rgba(79, 148, 239, 0.8);*/
 	padding: 3px 15px;
 	font-size: 15px;
 	color: #fff;
 }
-
-.info img{
-	height:42px;
-	width:230px;
+.menuRight .button {
+	height:16px;
 	margin-left: 5px;
-}
-.menuRight .first{
+	margin-right: 10px;
 	margin-top: 5px;
+	position: relative;
+	top: 2px;
+}
+.info{
+	background-color: #fff;
+	margin-bottom: 12px;
+}
+.info ul {
+	width: 94%;
+	margin-left: 3%;
+	margin-top: 2px;
+}
+.info ul #infoPublic {
+	position: relative;
+	left: -6px;
+}
+.info li {
+	border-bottom: 1px dashed rgba(200,200,200,0.8);
+}
+.info li img{
+	height:16px;
+	margin-left: 3px;
+	margin-right: 10px;
+	margin-top: 5px;
+	position: relative;
+	top: 2px;
 }
 .tousu{
 	margin-left: 6px;
-	margin-top: 15px;
+	margin-top: 12px;
 	width:225px;
-	height:80px;
 }
 .xinxiang{
 	margin-left: 6px;
-	margin-top: 5px;
-	margin-bottom: 15px;
+	margin-top: 10px;
+	margin-bottom: 12px;
 	width:225px;
-	height:60px;
+}
+.menuRight ul {
+	margin-top: 3px;
+	width: 94%;
+	margin-left: 3%;
+	padding-bottom: 10px;
+}
+.menuRight li {
+	border-bottom: 1px dashed rgba(200,200,200,0.8);
 }
 
 .content_left{width:754px;float:left;margin-top:10px;}
@@ -112,26 +156,28 @@ img{border:none;}
 
 .content_right{width:240px;float:right;}
 
-.contact{width:1004px;margin-top:-15px;padding-bottom:0px;border-radius:6px; }
-.contact img{width:1004px;height:180px;}
+.contact{width:1004px;padding-bottom:5px;position:relative;top:-12px;}
+.contact img{width:1004px;border-radius:3px;}
 
-.link{width:1004px;margin-top:3px;padding-bottom:25px;border-radius:6px; }
+.link{width:1004px;margin-top:3px;padding-bottom:25px;position:relative;top:-12px;}
 .link h1{
-	font-size: 17px;
+	background-image: url(../../images/app/titleRight.jpg);
+	background-size: 100% 100%;
+	font-size: 15px;
 	background-color: rgba(79, 148, 239, 0.8);
 	padding: 3px 15px;
 	color: #fff;
 }
-.link ul{width:1002px;height:50px;border:1px solid #dfdfdf;border-top:none;}
+.link ul{width:1002px;height:60px;border:1px solid #dfdfdf;border-top:none;border-radius:3px;}
 .link ul li{float:left;padding:10px 5px 10px 10px;}
 /*.link ul li a{color:#696969;}
 .link ul li a:hover{color:#de3437;text-decoration:underline;}
 */
-.footer{width:1004px;height:80px;border-top:1px solid #dfdfdf;margin: 0 auto;font-family:Arial;}
+.footer{width:1004px;height:80px;border-top:1px solid #dfdfdf;margin: 0 auto;font-family:Arial;position:relative;top:-20px;}
 .footer ul{padding-top:0px;color:#696969;}
 .footer ul .li_left{text-align:left;}
 .footer ul .li_right{text-align:right;}
-.footer ul li{width:502px;float:left;margin-top:10px;}
+.footer ul li{width:502px;float:left;margin-top:5px;}
 .footer ul li a{color:#696969;}
 .footer ul li a:hover{text-decoration:underline;}
 .footer ul li span a{color:#414141;font-weight:bold;}

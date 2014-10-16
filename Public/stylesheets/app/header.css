@@ -10,7 +10,7 @@ a:hover{ color:#de3237; text-decoration:none}
 /**top**/
 .top{ width:100%; background:#f7f7f7; border-bottom:1px solid #dad9d7; height:28px; line-height:28px;}
 /**header**/
-.header{ width:100%; padding-bottom:10px;}
+.header{ width:100%; padding-bottom:0px;}
 .search_box{ margin-left: -43px;}
 .search{ width:520px; height:68px;float:right;}
 #lenu1 li{float:left;display:block;cursor:pointer;width:58px;text-align:center;line-height:29px;height:29px;}
@@ -25,7 +25,7 @@ a:hover{ color:#de3237; text-decoration:none}
 .nav_left{ float:left;}
 .nav_left li{ float:left; margin-right:7px;}
 .nav_left li a:link,.nav_left li a:visited{ color:#fff; font-size:14px; font-weight:bold; padding:0 15px; line-height:32px; text-decoration:none; display:block;}
-.nav_left li a:hover{ background:#3141e7;}
+.nav_left li a:hover{ background:#5269c5;}
 .nav_right{ float:right}
 .nav_right li{ float:left; padding-left:7px;}
 .nav_right li a:link,.nav_right li a:visited{ padding-right:7px; color:#D3E2FC; text-decoration:none}
