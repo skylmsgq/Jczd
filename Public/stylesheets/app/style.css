@@ -17,13 +17,15 @@ img{border:none;}
 	border-radius: 6px;
 }
 .menu h1{
-	background-color: rgba(79, 148, 239, 0.8);
-	padding: 5px 10px;
-	font-size: 17px;
+	background-image: url(../../images/app/title.jpg);
+	background-size: 100% 100%;
+	/*background-color: rgba(79, 148, 239, 0.8);*/
+	padding: 3px 15px;
+	font-size: 15px;
 	color: #fff;
 }
 .menu .more {
-	font-size: 13px;
+	font-size: 12px;
 	float: right;
 	color: #fff;
 }
@@ -49,13 +51,15 @@ img{border:none;}
 	border-radius: 6px;
 }
 .menuRight h1{
-	background-color: rgba(79, 148, 239, 0.8);
-	padding: 5px 10px;
-	font-size: 17px;
+	background-image: url(../../images/app/title.jpg);
+	background-size: 100% 100%;
+	/*background-color: rgba(79, 148, 239, 0.8);*/
+	padding: 3px 15px;
+	font-size: 15px;
 	color: #fff;
 }
 
-.content_left{width:754px;float:left;margin-top:10px;height:900px;}
+.content_left{width:754px;float:left;margin-top:10px;}
 .left_top{width:754px;}
 .left_top_left{width:372px;float:left;}
 
@@ -67,7 +71,7 @@ img{border:none;}
 
 .left_top_right{width:372px;float:right;position:relative;top:-10px;}
 
-.left_center{width:754px;height:80px;margin-top:10px;}
+.left_center{width:754px;margin-top:10px;}
 
 .left_under{width:754px;}
 
@@ -77,15 +81,20 @@ img{border:none;}
 
 .content_right{width:240px;float:right;}
 
-.link{width:1004px;height:100px;margin-top:4px;padding-bottom:20px;}
-.link h1{width:1004px;height:39px;background:url(../images/link.PNG);}
-.link ul{width:1002px;height:60px;border:1px solid #dfdfdf;border-top:none;}
+.link{width:1004px;margin-top:10px;padding-bottom:25px;border-radius:6px; }
+.link h1{
+	font-size: 17px;
+	background-color: rgba(79, 148, 239, 0.8);
+	padding: 3px 15px;
+	color: #fff;
+}
+.link ul{width:1002px;height:50px;border:1px solid #dfdfdf;border-top:none;}
 .link ul li{float:left;padding:10px 10px 0 10px;}
 .link ul li a{color:#696969;}
 .link ul li a:hover{color:#de3437;text-decoration:underline;}
 
-.footer{width:1004px;height:100px;border-top:1px solid #dfdfdf;margin: 0 auto;font-family:Arial;}
-.footer ul{padding-top:5px;color:#696969;}
+.footer{width:1004px;height:80px;border-top:1px solid #dfdfdf;margin: 0 auto;font-family:Arial;}
+.footer ul{padding-top:0px;color:#696969;}
 .footer ul .li_left{text-align:left;}
 .footer ul .li_right{text-align:right;}
 .footer ul li{width:502px;float:left;margin-top:10px;}

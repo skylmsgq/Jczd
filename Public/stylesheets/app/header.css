@@ -21,13 +21,13 @@ a:hover{ color:#de3237; text-decoration:none}
 .serbtn{width:97px; height:30px; background:none; border:none;cursor:pointer; color:#fff; font-size:14px; font-weight:bold}
 #lain1 ul{display:none;text-align:left;}
 #lain1 ul.block{display: block;}
-.nav{ width:1004px; border:1px solid #D32A2F; border-left:0; border-right:0; height:32px; line-height:32px; background:#de3237;}
+.nav{ width:1004px; border:1px solid #304EC3; border-left:0; border-right:0; height:32px; line-height:32px; background:#505EEF;}
 .nav_left{ float:left;}
 .nav_left li{ float:left; margin-right:7px;}
 .nav_left li a:link,.nav_left li a:visited{ color:#fff; font-size:14px; font-weight:bold; padding:0 15px; line-height:32px; text-decoration:none; display:block;}
-.nav_left li a:hover{ background:#ba0100}
+.nav_left li a:hover{ background:#3141e7;}
 .nav_right{ float:right}
 .nav_right li{ float:left; padding-left:7px;}
-.nav_right li a:link,.nav_right li a:visited{ padding-right:7px; color:#F6E5B7; text-decoration:none}
-.nav_right li a:hover{ color:#fff; text-decoration:none}
+.nav_right li a:link,.nav_right li a:visited{ padding-right:7px; color:#D3E2FC; text-decoration:none}
+.nav_right li a:hover{ color:#fff; text-decoration:none;}
 .nav_right li span{ float:right; color:#ff6666;}
