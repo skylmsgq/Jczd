@@ -44,11 +44,20 @@ img{border:none;}
 	font-size: 12px;
 }
 
+.icon{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
 .menuRight {
 	border: 1px solid rgba(60,60,60,0.2);
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 6px;
+	background-color: rgba(128,196,240,0.2);
+}
+.info{
+	background-color: #fff;
 }
 .menuRight h1{
 	background-image: url(../../images/app/title.jpg);
@@ -57,6 +66,28 @@ img{border:none;}
 	padding: 3px 15px;
 	font-size: 15px;
 	color: #fff;
+}
+
+.info img{
+	height:42px;
+	width:230px;
+	margin-left: 5px;
+}
+.menuRight .first{
+	margin-top: 5px;
+}
+.menuRight .tousu{
+	margin-left: 6px;
+	margin-top: 15px;
+	width:225px;
+	height:80px;
+}
+.menuRight .xinxiang{
+	margin-left: 6px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width:225px;
+	height:60px;
 }
 
 .content_left{width:754px;float:left;margin-top:10px;}
@@ -81,7 +112,10 @@ img{border:none;}
 
 .content_right{width:240px;float:right;}
 
-.link{width:1004px;margin-top:10px;padding-bottom:25px;border-radius:6px; }
+.contact{width:1004px;margin-top:-15px;padding-bottom:0px;border-radius:6px; }
+.contact img{width:1004px;height:180px;}
+
+.link{width:1004px;margin-top:3px;padding-bottom:25px;border-radius:6px; }
 .link h1{
 	font-size: 17px;
 	background-color: rgba(79, 148, 239, 0.8);
@@ -89,10 +123,10 @@ img{border:none;}
 	color: #fff;
 }
 .link ul{width:1002px;height:50px;border:1px solid #dfdfdf;border-top:none;}
-.link ul li{float:left;padding:10px 10px 0 10px;}
-.link ul li a{color:#696969;}
+.link ul li{float:left;padding:10px 5px 10px 10px;}
+/*.link ul li a{color:#696969;}
 .link ul li a:hover{color:#de3437;text-decoration:underline;}
-
+*/
 .footer{width:1004px;height:80px;border-top:1px solid #dfdfdf;margin: 0 auto;font-family:Arial;}
 .footer ul{padding-top:0px;color:#696969;}
 .footer ul .li_left{text-align:left;}
