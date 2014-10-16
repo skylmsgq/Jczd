@@ -1,5 +1,7 @@
+<div class="menu">
 <ul>
 	<foreach name='function' item='v'>
 		<li><a href="{:U('Index/handleArticle',array('type'=>'function','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
 	</foreach>
 </ul>
+</div>
