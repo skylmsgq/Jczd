@@ -13,12 +13,18 @@ class IndexController extends Controller {
     	$this->policy = M('policy')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
     	$this->report = M('report')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
         $this->law = M('law')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
+        $this->banner = M('banner') ->order('id desc')->limit(5)->field('id,title,picture')->select();
     	$this->display('Index/index');
     }
 
     public function handleArticle(){
         $this->article = M(I('type'))->where(array('id'=>I('id')))->select();
         $this->display('Index/handle');
+    }
+
+    public function handlePicture(){
+        $this->article = M(I('type'))->where(array('id'=>I('id')))->select();
+        $this->display('Index/picture');
     }
 }
 ?>

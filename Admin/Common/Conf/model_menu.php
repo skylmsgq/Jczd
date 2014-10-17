@@ -150,31 +150,61 @@ return array (
       ),
     ),
   ),
-  'Fader' => 
+  // 'Fader' => 
+  // array (
+  //   'name' => '轮播图片管理',
+  //   'target' => 'Fader/index',
+  //   'sub_menu' => 
+  //   array (
+  //     0 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Fader/index' => '轮播图片管理',
+  //       ),
+  //     ),
+  //     1 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Fader/add' => '添加轮播图片',
+  //       ),
+  //     ),
+  //     2 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Fader/edit' => '编辑轮播图片',
+  //       ),
+  //       'hidden' => true,
+  //     ),
+  //   ),
+  // ),
+  'Banner' => 
   array (
-    'name' => '轮播图片管理',
-    'target' => 'Fader/index',
+    'name' => '图片管理',
+    'target' => 'Banner/index',
     'sub_menu' => 
     array (
       0 => 
       array (
         'item' => 
         array (
-          'Fader/index' => '轮播图片管理',
+          'Banner/index' => '图片管理',
         ),
       ),
       1 => 
       array (
         'item' => 
         array (
-          'Fader/add' => '添加轮播图片',
+          'Banner/add' => '添加图片',
         ),
       ),
       2 => 
       array (
         'item' => 
         array (
-          'Fader/edit' => '编辑轮播图片',
+          'Banner/edit' => '编辑图片',
         ),
         'hidden' => true,
       ),

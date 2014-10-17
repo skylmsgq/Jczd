@@ -76,11 +76,14 @@ option{ height: 16px;}
     letter-spacing:5px;
 }
 /*登录页样式*/
-.loginWeb { background:url(../../images/admin/login_body_bg.gif) repeat-x center top; }
+.loginWeb { 
+    background:url(../../images/admin/login.jpg) no-repeat;
+    background-size:100% 1240px;
+}
 .loginBox {
     width:900px;
     height:500px;
-    background:url(../../images/admin/login_bg.jpg) no-repeat center 30px;
+    /*background:url(../../images/admin/login_bg.jpg) no-repeat center 30px;*/
     margin:0 auto;
     padding-top:135px;
 }
@@ -110,7 +113,7 @@ option{ height: 16px;}
     padding-right:10px;
     font-family:"微软雅黑";
     font-size:16px;
-    color:#666;
+    color:#1b75b6;
 }
 .loginBox ul li.row2 { }
 .loginBox .loginInfo { }

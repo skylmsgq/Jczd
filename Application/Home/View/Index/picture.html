@@ -1,0 +1,19 @@
+<div class="article">
+	<div class="article-title">
+		<h1>{$article[0].title}</h1>
+	</div>
+	<div class="article-subtitle">
+		<h2>来源： {$article[0].tag}</h2>
+		<h3>发布时间：{$article[0].updated_at|date='Y-m-d H:i',###}</h3>
+	</div>
+	<br>
+	<br>
+	<br>
+	<hr>
+	<div class="article-content">
+		<div style="text-align:center"><img src="/Jczd/{$article[0]['picture']}" style="margin:0 auto;"></div>
+		<br>
+		<br>
+		{$article[0]['content']}
+	</div>
+</div>
