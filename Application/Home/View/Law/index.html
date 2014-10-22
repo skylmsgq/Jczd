@@ -1,10 +1,11 @@
 <div class="menu">
-<ul>
-	<foreach name='law' item='v'>
-		<li><a href="{:U('Index/handleArticle',array('type'=>'law','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
-	</foreach>
-</ul>
-<div class="pages">
-	{$page}
-</div>
+    <ul>
+        <foreach name='law' item='v'>
+            <li><a href="{:U('Index/handleArticle',array('type'=>'law','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a>
+            </li>
+        </foreach>
+    </ul>
+    <div class="pages">
+        {$page}
+    </div>
 </div>

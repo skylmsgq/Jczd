@@ -1,161 +1,128 @@
-      <div id="floater" style="position:absolute;z-index:999;">
-        <a href=""><img src="__PUBLIC__/images/app/food.jpg"></a></a>
-      </div>
-      <script type="text/javascript">
-      var img = document.getElementById('floater');
-      var width=document.documentElement.clientWidth,
-      height=document.documentElement.clientHeight,
-      Hoffset=img.offsetHeight,
-      Woffset=img.offsetWidth; 
-      var xpos=parseInt(Math.random()*(width-Woffset)/2),
-      ypos=parseInt(Math.random()*(height-Hoffset)/2),
-      step=1,
-      yon=0,
-      xon=0,
-      interval=0; 
-      function changePos(){
-        width=document.documentElement.clientWidth; 
-        height=document.documentElement.clientHeight; 
-        Hoffset=img.offsetHeight; 
-        Woffset=img.offsetWidth; 
-        $("#floater").css("left",xpos+document.body.scrollLeft);
-        $("#floater").css("top",ypos+document.body.scrollTop);
-        if(ypos==0){ 
-          yon=0; 
-          ypos=1; 
-        } 
-        if(ypos==(height-Hoffset)){ 
-          yon=1; 
-          ypos=(height-Hoffset)-1; 
-        } 
-        if(xpos==0){ 
-          xon=0; 
-          xpos=1; 
-        } 
-        if(xpos==(width-Woffset)){ 
-          xon=1; 
-          xpos=(width-Woffset)-1; 
-        } 
-        if(yon==0){ 
-          ypos=ypos+step; 
-        }else{ 
-          ypos=ypos-step; 
-        }  
-        if(xon==0){ 
-          xpos=xpos+step; 
-        }else{ 
-          xpos=xpos-step; 
-        } 
-      }
-      interval = setInterval('changePos()',30);
-      $(function(){
-        $('#floater').mouseenter(function(){
-          clearInterval(interval);
-        });
-        $('#floater').mouseleave(function(){
-          interval = setInterval('changePos()',30);
-        });
-      });
-      </script>
-      <div class="left_top">
-       <div class="left_top_left">
+<div id="floater" style="position:absolute;z-index:999;">
+    <a href="{:U('Index/handleArticle',array('type'=>'inform','id'=>$inform[0]['id']))}">
+        <img src="/Jczd/{$inform[0].image}">
+    </a>
+</div>
+<script type="text/javascript" src="__PUBLIC__/javascripts/app/float.js"></script>
+
+<div class="left_top">
+    <div class="left_top_left">
         <div id="fader">
-         <ul>
-          <foreach name='banner' item='v'>
-            <li><a href="{:U('Index/handlePicture',array('type'=>'banner','id'=>$v['id']))}" title=""><img src="/Jczd/{$v.picture}" alt="{$v.title}"></a></li>
-          </foreach>
-          <!-- <li><a href="content/content_1_3.html" title=""><img src="__PUBLIC__/images/app/ct13.jpg" alt="奥巴马致电胡锦涛 表示珍视两人所作共同努力"></a></li>
-          <li><a href="content/content_2_6.html" title=""><img src="__PUBLIC__/images/app/ct26.jpg" alt="李克强：中国将全面深化改革扩大开放"></a></li>
-          <li><a href="content/content_3_6.html" title=""><img src="__PUBLIC__/images/app/ct36.jpg" alt="新华网评：改革，唯一和最好的选择"></a></li>
-          <li><a href="content/content_4_5.html" title=""><img src="__PUBLIC__/images/app/ct45.jpg" alt="解读生育新政：单独二胎，生？还是不生？"></a></li>
-          <li><a href="http://v.ifeng.com/news/mainland/201311/01b249a6-5c86-4970-8152-4a5525cd562a.shtml" title=""><img src="__PUBLIC__/images/app/ct6.jpg" alt="[文汇报] 曝三中全会将划最严生态红线 逾线官员将被问责"></a></li> -->
-        </ul>
-      </div><!--fader(banner) end-->
-      <script type="text/javascript" src="__PUBLIC__/javascripts/app/banner2.js"></script> 
-      <!--div class="menu">
-       <h1>信息公开<a class="more" href="{:U('Info/index')}" title="信息公开" target="blank">More</a></h1>
-       <div class="clear"></div>
-       <div class="list">
-        <ul>
-         <foreach name='info' item='v'>
-          <li><a href="{:U('Index/handleArticle',array('type'=>'info','id'=>$v['id']))}" title="">{$v.title}<span class='fr'>{$v.updated_at|date='Y-m-d H:i',###}</span></a></li>
-        </foreach>
-      </ul>
+            <ul>
+                <foreach name='banner' item='v'>
+                    <li>
+                        <a href="{:U('Index/handlePicture',array('type'=>'banner','id'=>$v['id']))}" title="">
+                            <img src="/Jczd/{$v.picture}" alt="{$v.title}">
+                        </a>
+                    </li>
+                </foreach>
+            </ul>
+        </div>
+        <!--fader(banner) end-->
+        <script type="text/javascript" src="__PUBLIC__/javascripts/app/banner2.js"></script>
+        <div class="menu">
+            <h1>文件通知
+                <img class="titlePic" src="__PUBLIC__/images/app/notice.png" alt=""><a class="more" href="{:U('Notice/index')}" title="文件通知" target="blank">More</a>
+            </h1>
+            <div class="clear"></div>
+            <div class="list">
+                <ul>
+                    <foreach name='notice' item='v'>
+                        <li><a href="{:U('Index/handleArticle',array('type'=>'notice','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+            <!--list end-->
+        </div>
+        <!--dfdt end-->
+
+        <div class="menu">
+            <h1>机构职能
+                <img class="titlePic" src="__PUBLIC__/images/app/function.png" alt=""><a class="more" href="{:U('Function/index')}" title="机构职能" target="blank">More</a>
+            </h1>
+            <div class="clear"></div>
+            <div class="list">
+                <ul>
+                    <foreach name='function' item='v'>
+                        <li><a href="{:U('Index/handleArticle',array('type'=>'function','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+            <!--list end-->
+        </div>
+        <!--dfdt end-->
+        <div class="menu">
+            <h1>抽验报告
+                <img class="titlePic" src="__PUBLIC__/images/app/report.png" alt=""><a class="more" href="{:U('Report/index')}" title="抽验报告" target="blank">More</a>
+            </h1>
+            <div class="clear"></div>
+            <div class="list">
+                <ul>
+                    <foreach name='report' item='v'>
+                        <li><a href="{:U('Index/handleArticle',array('type'=>'report','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+        <!--hyfx end-->
     </div>
-  </div--><!--scdt end-->
+    <!--top_left_zuo end-->
 
-  <div class="menu">
-   <h1>文件通知<img class="titlePic" src="__PUBLIC__/images/app/notice.png" alt=""><a class="more" href="{:U('Notice/index')}" title="文件通知" target="blank">More</a></h1>
-   <div class="clear"></div>
-   <div class="list">
-    <ul>                    
-      <foreach name='notice' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'notice','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
-      </foreach>                       
-    </ul>
-  </div><!--list end-->
-</div><!--dfdt end-->
+    <div class="left_top_right">
+        <div class="menu">
+            <h1>政务动态
+                <img class="titlePic" src="__PUBLIC__/images/app/policy.png" alt=""><a class="more" href="{:U('Policy/index')}" title="政务动态" target="blank">More</a>
+            </h1>
+            <div class="clear"></div>
+            <div class="list">
+                <ul>
+                    <foreach name='policy' item='v'>
+                        <li><a href="{:U('Index/handleArticle',array('type'=>'policy','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+            <!--list end-->
+        </div>
+        <!--dfdt end-->
 
- <div class="menu">
-   <h1>机构职能<img class="titlePic" src="__PUBLIC__/images/app/function.png" alt=""><a class="more" href="{:U('Function/index')}" title="机构职能" target="blank">More</a></h1>
-   <div class="clear"></div>
-   <div class="list">
-    <ul>                    
-      <foreach name='function' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'function','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
-      </foreach>                       
-    </ul>
-  </div><!--list end-->
-</div><!--dfdt end-->
-<div class="menu">
-    <h1>抽验报告<img class="titlePic" src="__PUBLIC__/images/app/report.png" alt=""><a class="more" href="{:U('Report/index')}" title="抽验报告" target="blank">More</a></h1>
-    <div class="clear"></div>
-    <div class="list">
-      <ul>
-        <foreach name='report' item='v'>
-          <li><a href="{:U('Index/handleArticle',array('type'=>'report','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
-        </foreach>
-      </ul>
+        <div class="menu">
+            <h1>食品药品监管
+                <img class="titlePic" src="__PUBLIC__/images/app/news.png" alt=""><a class="more" href="{:U('News/index')}" title="食品药品监管" target="blank">More</a>
+            </h1>
+            <div class="clear"></div>
+            <div class="list">
+                <ul>
+                    <foreach name='news' item='v'>
+                        <li><a href="{:U('Index/handleArticle',array('type'=>'news','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+        <!--hyaq end-->
+        <div class="menu">
+            <h1>法律法规
+                <img class="titlePic" src="__PUBLIC__/images/app/law.png" alt=""><a class="more" href="{:U('law/index')}" title="法律法规" target="blank">More</a>
+            </h1>
+            <div class="clear"></div>
+            <div class="list">
+                <ul>
+                    <foreach name='law' item='v'>
+                        <li><a href="{:U('Index/handleArticle',array('type'=>'law','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+            <!--list end-->
+        </div>
+        <!--dfdt end-->
+
+
     </div>
-  </div><!--hyfx end-->
-</div><!--top_left_zuo end-->
-
-<div class="left_top_right">
-  <div class="menu">
-   <h1>政务动态<img class="titlePic" src="__PUBLIC__/images/app/policy.png" alt=""><a class="more" href="{:U('Policy/index')}" title="政务动态" target="blank">More</a></h1>
-   <div class="clear"></div>
-   <div class="list">
-    <ul>                    
-      <foreach name='policy' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'policy','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
-      </foreach>                       
-    </ul>
-  </div><!--list end-->
-</div><!--dfdt end-->
-
-<div class="menu">
-   <h1>食品药品监管<img class="titlePic" src="__PUBLIC__/images/app/news.png" alt=""><a class="more" href="{:U('News/index')}" title="食品药品监管" target="blank">More</a></h1>
-   <div class="clear"></div>
-   <div class="list">
-    <ul>
-      <foreach name='news' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'news','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
-      </foreach>
-    </ul>  
-  </div>      
-</div><!--hyaq end-->
-  <div class="menu">
-   <h1>法律法规<img class="titlePic" src="__PUBLIC__/images/app/law.png" alt=""><a class="more" href="{:U('law/index')}" title="法律法规" target="blank">More</a></h1>
-   <div class="clear"></div>
-   <div class="list">
-    <ul>                    
-      <foreach name='law' item='v'>
-        <li><a href="{:U('Index/handleArticle',array('type'=>'law','id'=>$v['id']))}" title="">{$v.title} ({$v.updated_at|date='Y-m-d',###})</a></li>
-      </foreach>                       
-    </ul>
-  </div><!--list end-->
-</div><!--dfdt end-->
-
-
-</div><!--top_left_you end-->
-      </div><!--left_top end-->
+    <!--top_left_you end-->
+</div>
+<!--left_top end-->

@@ -150,36 +150,36 @@ return array (
       ),
     ),
   ),
-  // 'Fader' => 
-  // array (
-  //   'name' => '轮播图片管理',
-  //   'target' => 'Fader/index',
-  //   'sub_menu' => 
-  //   array (
-  //     0 => 
-  //     array (
-  //       'item' => 
-  //       array (
-  //         'Fader/index' => '轮播图片管理',
-  //       ),
-  //     ),
-  //     1 => 
-  //     array (
-  //       'item' => 
-  //       array (
-  //         'Fader/add' => '添加轮播图片',
-  //       ),
-  //     ),
-  //     2 => 
-  //     array (
-  //       'item' => 
-  //       array (
-  //         'Fader/edit' => '编辑轮播图片',
-  //       ),
-  //       'hidden' => true,
-  //     ),
-  //   ),
-  // ),
+  'Function' => 
+  array (
+    'name' => '机构职能管理',
+    'target' => 'Function/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Function/index' => '机构职能管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Function/add' => '添加机构职能',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Function/edit' => '编辑机构职能',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
   'Banner' => 
   array (
     'name' => '图片管理',
@@ -205,6 +205,36 @@ return array (
         'item' => 
         array (
           'Banner/edit' => '编辑图片',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
+  'Inform' => 
+  array (
+    'name' => '通知管理',
+    'target' => 'Inform/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Inform/index' => '通知管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Inform/add' => '添加通知',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Inform/edit' => '编辑通知',
         ),
         'hidden' => true,
       ),
