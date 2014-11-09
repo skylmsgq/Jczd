@@ -11,6 +11,20 @@
     <script type="text/javascript" src="/Jczd/Public/javascripts/app/banner1.js"></script>
     <script type="text/javascript" src="/Jczd/Public/javascripts/app/jquery.min.js"></script>
     <script type="text/javascript" src="/Jczd/Public/javascripts/app/current_time.js"></script>
+    <script type="text/javascript">  
+        function bookmark(){ 
+        var title=document.title 
+        var url=document.location.href 
+        if (window.sidebar) window.sidebar.addPanel(title, url,""); 
+        else if( window.opera && window.print ){ 
+        var mbm = document.createElement('a'); 
+        mbm.setAttribute('rel','sidebar'); 
+        mbm.setAttribute('href',url); 
+        mbm.setAttribute('title',title); 
+        mbm.click();} 
+        else if( document.all ) window.external.AddFavorite( url, title); 
+        } 
+</script>   
 </head>
 
 <body>
@@ -26,12 +40,10 @@
     <!--header begin-->
     <div class="header">
         <div class="wrap">
-
             <div class="search_box">
                 <a href="" title="" target="blank">
                     <img src="/Jczd/Public/images/app/yingkesong.png" width="1003px" alt="" class="fl" />
                 </a>
-
             </div>
             <div class="cb"></div>
         </div>
@@ -57,7 +69,7 @@
                 </li>
             </ul>
             <ul class="nav_right">
-                <li><a href="#" onclick="alert('此功能施工中...')" title="">加入收藏夹</a>
+                <li><a href="javascript:bookmark()">加入收藏夹</a>
             </ul>
         </div>
     </div>
@@ -84,29 +96,19 @@
             <div class="icon">
                 <ul>
                     <li>
-                        <a href="">
-                            <img src="/Jczd/Public/images/app/food.jpg">
-                        </a>
+                        <img src="/Jczd/Public/images/app/food.jpg">
                     </li>
                     <li>
-                        <a href="">
-                            <img src="/Jczd/Public/images/app/bjshp.jpg">
-                        </a>
+                        <img src="/Jczd/Public/images/app/bjshp.jpg">
                     </li>
                     <li>
-                        <a href="">
-                            <img src="/Jczd/Public/images/app/drug.jpg">
-                        </a>
+                        <img src="/Jczd/Public/images/app/drug.jpg">
                     </li>
                     <li>
-                        <a href="">
-                            <img src="/Jczd/Public/images/app/hzp.jpg">
-                        </a>
+                        <img src="/Jczd/Public/images/app/hzp.jpg">
                     </li>
                     <li>
-                        <a href="">
-                            <img src="/Jczd/Public/images/app/ylqx.jpg">
-                        </a>
+                        <img src="/Jczd/Public/images/app/ylqx.jpg">
                     </li>
                 </ul>
                 <div class="info">
@@ -137,16 +139,12 @@
                     </ul>
                 </div>
 
-
                 <div class="menuRight">
                     <h1>联系我们
                         <img class="titlePic" src="/Jczd/Public/images/app/contact.png" alt="">
                     </h1>
                     <img src="/Jczd/Public/images/app/contact_1.png" width="238px">
-                    <a href="">
-                        <img class="tousu" src="/Jczd/Public/images/app/tousu.jpg">
-                    </a>
-                    <!-- <a href=""><img class="xinxiang" src="/Jczd/Public/images/app/xinxiang.jpg"></a> -->
+                    <img class="tousu" src="/Jczd/Public/images/app/tousu.jpg">
                 </div>
                 <div class="menuRight">
                     <h1>文件下载

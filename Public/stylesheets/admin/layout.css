@@ -103,7 +103,7 @@ html, body {
     text-align:center;
 }
 .menu li.fisrt { background:url(../../images/admin/x-bg.gif) no-repeat left -120px; }
-.menu li.fisrt span{ margin-left: 5px; margin-right: 5px;}
+.menu li.fisrt span{ margin-left: 5px; margin-right: 0px;}
 .menu li.end { background:url(../../images/admin/x-bg.gif) no-repeat right -160px; }
 .menu li.end span{ padding-right: 5px;}
 .menu li a {

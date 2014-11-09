@@ -78,20 +78,13 @@
     <div class="content">
         <div class="clear"></div>
         <div class="content_left">
-            <div class="article">
-    <div class="article-title">
-        <h1><?php echo ($article[0]["title"]); ?></h1>
-    </div>
-    <div class="article-subtitle">
-        <h2>来源： <?php echo ($article[0]["tag"]); ?></h2>
-        <h3>发布时间：<?php echo (date('Y-m-d H:i',$article[0]["updated_at"])); ?></h3>
-    </div>
-    <br>
-    <br>
-    <br>
-    <hr>
-    <div class="article-content" style="margin-bottom:30px;">
-        <?php echo ($article[0]['content']); ?>
+            <div class="menu">
+    <ul>
+        <?php if(is_array($report)): foreach($report as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'report','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?><span class='fr'><?php echo (date('Y-m-d H:i',$v["updated_at"])); ?></span></a>
+            </li><?php endforeach; endif; ?>
+    </ul>
+    <div class="pages">
+        <?php echo ($page); ?>
     </div>
 </div>
 
