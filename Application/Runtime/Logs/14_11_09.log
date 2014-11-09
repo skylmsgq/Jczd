@@ -1944,3 +1944,1069 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
 
+[ 2014-11-09T09:59:32+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Policy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.004990s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_policy` LIMIT 1   [ RunTime:0.000692s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in D:\wamp\www\Jczd\Application\Home\Controller\PolicyController.class.php on line 7 and defined D:\wamp\www\Jczd\ThinkPHP\Library\Org\Util\Page.class.php 第 46 行.
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 0,15   [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002826s ]
+
+[ 2014-11-09T09:59:37+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002953s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 5 )  [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2014-11-09T09:59:48+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003825s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 5 )  [ RunTime:0.001348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2014-11-09T09:59:53+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002549s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 5 )  [ RunTime:0.000530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2014-11-09T09:59:59+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003207s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 5 )  [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-11-09T10:00:00+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002976s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 5 )  [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2014-11-09T10:00:02+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 5 )  [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2014-11-09T10:01:50+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.004554s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 5 )  [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2014-11-09T10:01:52+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003248s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003013s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002914s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002490s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003266s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002832s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.002712s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003112s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004368s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2014-11-09T10:01:55+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003532s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.006058s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.004249s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.003059s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.005333s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003421s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.004284s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.004344s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004006s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2014-11-09T10:02:22+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/inform/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.002913s ]
+SQL: SELECT * FROM `ea_inform` WHERE ( `id` = 1 )  [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-11-09T10:02:25+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003322s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003656s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003776s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.005229s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003399s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003426s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.003887s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.004126s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.003808s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2014-11-09T10:03:16+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003634s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.004067s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003533s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003841s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.003768s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003672s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003941s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.004381s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.002972s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.003408s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2014-11-09T10:06:27+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002932s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003265s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003469s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.003230s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.004216s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002122s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.003580s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003112s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.002929s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2014-11-09T10:06:29+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003323s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.004707s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002384s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.003383s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003616s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003631s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.002555s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003435s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.005383s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2014-11-09T10:06:30+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003290s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003524s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.005546s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.003939s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.004045s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003478s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.004448s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.002327s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004003s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002207s ]
+
+[ 2014-11-09T10:06:37+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/inform/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004166s ]
+SQL: SELECT * FROM `ea_inform` WHERE ( `id` = 1 )  [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2014-11-09T10:06:38+08:00 ] 127.0.0.1 /Jczd/index.php/Home/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.004442s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_news` LIMIT 1   [ RunTime:0.000410s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in D:\wamp\www\Jczd\Application\Home\Controller\NewsController.class.php on line 7 and defined D:\wamp\www\Jczd\ThinkPHP\Library\Org\Util\Page.class.php 第 46 行.
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 0,15   [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2014-11-09T10:06:40+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/handleArticle/type/news/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003477s ]
+SQL: SELECT * FROM `ea_news` WHERE ( `id` = 10 )  [ RunTime:0.000424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2014-11-09T10:06:42+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003724s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002443s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002288s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.003725s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.004867s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003311s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.003080s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003698s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.002226s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2014-11-09T10:11:05+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003744s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.004616s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003531s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.005311s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003367s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003351s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.002878s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.004760s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004495s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000852s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2014-11-09T10:24:54+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.005650s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003220s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003279s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.004084s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003312s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.022696s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.004460s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003915s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004158s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2014-11-09T10:26:06+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003722s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003698s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.004035s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002912s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003758s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003377s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.004624s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003810s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004533s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2014-11-09T10:26:06+08:00 ] 127.0.0.1 /Jczd/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001783s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003254s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003193s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.005223s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002651s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002967s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003670s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.005294s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.004471s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004827s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2014-11-09T10:26:19+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.004149s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.004107s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003606s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.004683s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002497s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.004082s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.003346s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003955s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.003361s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2014-11-09T10:28:23+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.004224s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003240s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003747s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002413s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003083s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.004228s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.003973s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.004697s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.005063s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2014-11-09T10:29:43+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003836s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.003882s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.005327s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.004907s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002880s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.004321s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.004582s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003965s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.004312s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2014-11-09T10:29:44+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002419s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002922s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.005925s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.004418s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.004233s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.003706s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.002473s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003142s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.005031s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000553s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2014-11-09T10:30:31+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.015442s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.005269s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.003766s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.005975s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.005941s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.004484s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.005141s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.003895s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.003552s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2014-11-09T10:33:36+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.029966s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.008268s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.014768s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.026726s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.018502s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.005772s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.006196s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.005584s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.005958s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2014-11-09T10:35:59+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002636s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002468s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002324s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002251s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002478s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002315s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.002582s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.002723s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.002198s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2014-11-09T10:52:59+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002580s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002567s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002550s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.003082s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.003534s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002552s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.002982s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.005028s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.002714s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2014-11-09T10:53:25+08:00 ] 127.0.0.1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.003445s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.002315s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.002342s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002304s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002150s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002199s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.002480s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.002354s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `ea_inform` [ RunTime:0.002370s ]
+SQL: SELECT `id`,`image` FROM `ea_inform` ORDER BY id desc LIMIT 1   [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+

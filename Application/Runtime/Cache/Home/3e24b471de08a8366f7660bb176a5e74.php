@@ -11,20 +11,6 @@
     <script type="text/javascript" src="/Jczd/Public/javascripts/app/banner1.js"></script>
     <script type="text/javascript" src="/Jczd/Public/javascripts/app/jquery.min.js"></script>
     <script type="text/javascript" src="/Jczd/Public/javascripts/app/current_time.js"></script>
-    <script type="text/javascript">  
-        function bookmark(){ 
-        var title=document.title 
-        var url=document.location.href 
-        if (window.sidebar) window.sidebar.addPanel(title, url,""); 
-        else if( window.opera && window.print ){ 
-        var mbm = document.createElement('a'); 
-        mbm.setAttribute('rel','sidebar'); 
-        mbm.setAttribute('href',url); 
-        mbm.setAttribute('title',title); 
-        mbm.click();} 
-        else if( document.all ) window.external.AddFavorite( url, title); 
-        } 
-</script>   
 </head>
 
 <body>
@@ -40,10 +26,12 @@
     <!--header begin-->
     <div class="header">
         <div class="wrap">
+
             <div class="search_box">
                 <a href="" title="" target="blank">
                     <img src="/Jczd/Public/images/app/yingkesong.png" width="1003px" alt="" class="fl" />
                 </a>
+
             </div>
             <div class="cb"></div>
         </div>
@@ -69,7 +57,7 @@
                 </li>
             </ul>
             <ul class="nav_right">
-                <li><a href="javascript:bookmark()">加入收藏夹</a>
+                <li><a href="#" onclick="alert('此功能施工中...')" title="">加入收藏夹</a>
             </ul>
         </div>
     </div>
@@ -78,120 +66,15 @@
     <div class="content">
         <div class="clear"></div>
         <div class="content_left">
-            <div id="floater" style="position:absolute;z-index:999;">
-    <a href="<?php echo U('Index/handleArticle',array('type'=>'inform','id'=>$inform[0]['id']));?>">
-        <img src="/Jczd/<?php echo ($inform[0]["image"]); ?>">
-    </a>
-</div>
-<script type="text/javascript" src="/Jczd/Public/javascripts/app/float.js"></script>
-
-<div class="left_top">
-    <div class="left_top_left">
-        <div id="fader">
-            <ul>
-                <?php if(is_array($banner)): foreach($banner as $key=>$v): ?><li>
-                        <a href="<?php echo U('Index/handlePicture',array('type'=>'banner','id'=>$v['id']));?>" title="">
-                            <img src="/Jczd/<?php echo ($v["picture"]); ?>" alt="<?php echo ($v["title"]); ?>">
-                        </a>
-                    </li><?php endforeach; endif; ?>
-            </ul>
-        </div>
-        <!--fader(banner) end-->
-        <script type="text/javascript" src="/Jczd/Public/javascripts/app/banner2.js"></script>
-        <div class="menu">
-            <h1>文件通知
-                <img class="titlePic" src="/Jczd/Public/images/app/notice.png" alt=""><a class="more" href="<?php echo U('Notice/index');?>" title="文件通知" target="blank">More</a>
-            </h1>
-            <div class="clear"></div>
-            <div class="list">
-                <ul>
-                    <?php if(is_array($notice)): foreach($notice as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'notice','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?> (<?php echo (date('Y-m-d',$v["updated_at"])); ?>)</a>
-                        </li><?php endforeach; endif; ?>
-                </ul>
-            </div>
-            <!--list end-->
-        </div>
-        <!--dfdt end-->
-
-        <div class="menu">
-            <h1>机构职能
-                <img class="titlePic" src="/Jczd/Public/images/app/function.png" alt=""><a class="more" href="<?php echo U('Function/index');?>" title="机构职能" target="blank">More</a>
-            </h1>
-            <div class="clear"></div>
-            <div class="list">
-                <ul>
-                    <?php if(is_array($function)): foreach($function as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'function','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?> (<?php echo (date('Y-m-d',$v["updated_at"])); ?>)</a>
-                        </li><?php endforeach; endif; ?>
-                </ul>
-            </div>
-            <!--list end-->
-        </div>
-        <!--dfdt end-->
-        <div class="menu">
-            <h1>抽验报告
-                <img class="titlePic" src="/Jczd/Public/images/app/report.png" alt=""><a class="more" href="<?php echo U('Report/index');?>" title="抽验报告" target="blank">More</a>
-            </h1>
-            <div class="clear"></div>
-            <div class="list">
-                <ul>
-                    <?php if(is_array($report)): foreach($report as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'report','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?> (<?php echo (date('Y-m-d',$v["updated_at"])); ?>)</a>
-                        </li><?php endforeach; endif; ?>
-                </ul>
-            </div>
-        </div>
-        <!--hyfx end-->
+            <div class="menu">
+    <ul>
+        <?php if(is_array($news)): foreach($news as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'news','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?><span class='fr'><?php echo (date('Y-m-d H:i',$v["updated_at"])); ?></span></a>
+            </li><?php endforeach; endif; ?>
+    </ul>
+    <div class="pages">
+        <?php echo ($page); ?>
     </div>
-    <!--top_left_zuo end-->
-
-    <div class="left_top_right">
-        <div class="menu">
-            <h1>政务动态
-                <img class="titlePic" src="/Jczd/Public/images/app/policy.png" alt=""><a class="more" href="<?php echo U('Policy/index');?>" title="政务动态" target="blank">More</a>
-            </h1>
-            <div class="clear"></div>
-            <div class="list">
-                <ul>
-                    <?php if(is_array($policy)): foreach($policy as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'policy','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?> (<?php echo (date('Y-m-d',$v["updated_at"])); ?>)</a>
-                        </li><?php endforeach; endif; ?>
-                </ul>
-            </div>
-            <!--list end-->
-        </div>
-        <!--dfdt end-->
-
-        <div class="menu">
-            <h1>食品药品监管
-                <img class="titlePic" src="/Jczd/Public/images/app/news.png" alt=""><a class="more" href="<?php echo U('News/index');?>" title="食品药品监管" target="blank">More</a>
-            </h1>
-            <div class="clear"></div>
-            <div class="list">
-                <ul>
-                    <?php if(is_array($news)): foreach($news as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'news','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?> (<?php echo (date('Y-m-d',$v["updated_at"])); ?>)</a>
-                        </li><?php endforeach; endif; ?>
-                </ul>
-            </div>
-        </div>
-        <!--hyaq end-->
-        <div class="menu">
-            <h1>法律法规
-                <img class="titlePic" src="/Jczd/Public/images/app/law.png" alt=""><a class="more" href="<?php echo U('law/index');?>" title="法律法规" target="blank">More</a>
-            </h1>
-            <div class="clear"></div>
-            <div class="list">
-                <ul>
-                    <?php if(is_array($law)): foreach($law as $key=>$v): ?><li><a href="<?php echo U('Index/handleArticle',array('type'=>'law','id'=>$v['id']));?>" title=""><?php echo ($v["title"]); ?> (<?php echo (date('Y-m-d',$v["updated_at"])); ?>)</a>
-                        </li><?php endforeach; endif; ?>
-                </ul>
-            </div>
-            <!--list end-->
-        </div>
-        <!--dfdt end-->
-
-
-    </div>
-    <!--top_left_you end-->
 </div>
-<!--left_top end-->
 
 
         </div>
