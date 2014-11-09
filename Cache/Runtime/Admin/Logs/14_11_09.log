@@ -2053,3 +2053,366 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
 
+[ 2014-11-09T12:03:38+08:00 ] 127.0.0.1 /Jczd/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002433s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000346s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\Jczd\Admin\Home\Service\AdminService.class.php on line 161 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-11-09T12:07:15+08:00 ] 127.0.0.1 /Jczd/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\www\Jczd\Admin\Home\Controller\ModelsController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002600s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000349s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\Jczd\Admin\Home\Service\AdminService.class.php on line 161 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in D:\wamp\www\Jczd\Admin\Home\Controller\ModelsController.class.php on line 14 and defined D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in D:\wamp\www\Jczd\Admin\Home\Controller\ModelsController.class.php on line 14 and defined D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in D:\wamp\www\Jczd\Admin\Home\Controller\ModelsController.class.php on line 14 and defined D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be of the type array, null given, called in D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php on line 135 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.003182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_model` LIMIT 1   [ RunTime:0.000227s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php on line 137 and defined D:\wamp\www\Jczd\ThinkPHP\Library\Org\Util\Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.002677s ]
+SQL: SELECT * FROM `ea_model` LIMIT 0,10   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `ea_field` [ RunTime:0.002683s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000433s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='4' )  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='5' )  [ RunTime:0.000286s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='6' )  [ RunTime:0.000271s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='7' )  [ RunTime:0.000363s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='8' )  [ RunTime:0.000345s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='9' )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='10' )  [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `ea_common` [ RunTime:0.002735s ]
+ERR: 0:Table 'jczd.ea_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ea_common`
+SQL: SELECT COUNT(*) FROM ea_function [ RunTime:0.000271s ]
+SQL: SELECT COUNT(*) FROM ea_info [ RunTime:0.000143s ]
+SQL: SELECT COUNT(*) FROM ea_report [ RunTime:0.000144s ]
+SQL: SELECT COUNT(*) FROM ea_news [ RunTime:0.000144s ]
+SQL: SELECT COUNT(*) FROM ea_notice [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) FROM ea_policy [ RunTime:0.000134s ]
+SQL: SELECT COUNT(*) FROM ea_law [ RunTime:0.000150s ]
+SQL: SELECT COUNT(*) FROM ea_banner [ RunTime:0.000128s ]
+SQL: SELECT COUNT(*) FROM ea_inform [ RunTime:0.000173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2014-11-09T12:08:09+08:00 ] 127.0.0.1 /Jczd/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002541s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000393s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\Jczd\Admin\Home\Service\AdminService.class.php on line 161 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2014-11-09T12:08:12+08:00 ] 127.0.0.1 /Jczd/admin.php/Report/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002643s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000350s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\Jczd\Admin\Home\Service\AdminService.class.php on line 161 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000451s ]
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.002927s ]
+SQL: SELECT * FROM `ea_model` WHERE ( `tbl_name` = 'ea_report' ) LIMIT 1   [ RunTime:0.000392s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be of the type array, null given, called in D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php on line 135 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002393s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_report` LIMIT 1   [ RunTime:0.000243s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php on line 137 and defined D:\wamp\www\Jczd\ThinkPHP\Library\Org\Util\Page.class.php 第 46 行.
+SQL: SELECT * FROM `ea_report` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.002907s ]
+SQL: SHOW COLUMNS FROM `ea_field` [ RunTime:0.002859s ]
+SQL: SELECT * FROM `ea_field` WHERE ( `model_id` = 4 ) AND ( `is_list_show` = 1 )  [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `ea_input` [ RunTime:0.003058s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='13' ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='14' ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='15' ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='32' ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='33' ) LIMIT 1   [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\ac45f0349d1388019370746ee08b2d8d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\ac45f0349d1388019370746ee08b2d8d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2014-11-09T12:08:14+08:00 ] 127.0.0.1 /Jczd/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002370s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000367s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\Jczd\Admin\Home\Service\AdminService.class.php on line 161 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2014-11-09T12:08:15+08:00 ] 127.0.0.1 /Jczd/admin.php/Report/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002918s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000335s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\Jczd\Admin\Home\Service\AdminService.class.php on line 161 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.002918s ]
+SQL: SELECT * FROM `ea_model` WHERE ( `tbl_name` = 'ea_report' ) LIMIT 1   [ RunTime:0.000276s ]
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be of the type array, null given, called in D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php on line 135 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.002620s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_report` LIMIT 1   [ RunTime:0.000206s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php on line 137 and defined D:\wamp\www\Jczd\ThinkPHP\Library\Org\Util\Page.class.php 第 46 行.
+SQL: SELECT * FROM `ea_report` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.002151s ]
+SQL: SHOW COLUMNS FROM `ea_field` [ RunTime:0.003431s ]
+SQL: SELECT * FROM `ea_field` WHERE ( `model_id` = 4 ) AND ( `is_list_show` = 1 )  [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `ea_input` [ RunTime:0.003600s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='13' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='14' ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='15' ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='32' ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT * FROM `ea_input` WHERE ( 1=1 AND field_id='33' ) LIMIT 1   [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\ac45f0349d1388019370746ee08b2d8d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\ac45f0349d1388019370746ee08b2d8d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2014-11-09T12:08:16+08:00 ] 127.0.0.1 /Jczd/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002671s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000326s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\Jczd\Admin\Home\Service\AdminService.class.php on line 161 and defined D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\Jczd\Admin\Home\Service\CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 184 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000449s ]
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference D:\wamp\www\Jczd\Admin\Home\Controller\CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\wamp\www\Jczd\Cache\Runtime\Admin\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+

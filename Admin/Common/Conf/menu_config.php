@@ -70,16 +70,16 @@ $systemMenu = array(
     // ),
 
     // 模型管理
-    'Models' => array(
-        'name' => '模型管理',
-        'target' => 'Models/index',
-        'sub_menu' => array(
-            array('item' => array('Models/index' => '模型列表')),
-            array('item' => array('Models/add' => '添加模型')),
-            array('item' => array('Models/show' => '模型信息'),'hidden' => true),
-            array('item' => array('Models/edit' => '编辑模型'),'hidden' => true),
-        )
-    ),
+    // 'Models' => array(
+    //     'name' => '模型管理',
+    //     'target' => 'Models/index',
+    //     'sub_menu' => array(
+    //         array('item' => array('Models/index' => '模型列表')),
+    //         array('item' => array('Models/add' => '添加模型')),
+    //         array('item' => array('Models/show' => '模型信息'),'hidden' => true),
+    //         array('item' => array('Models/edit' => '编辑模型'),'hidden' => true),
+    //     )
+    // ),
 
     // 字段管理
     'Fields' => array(
