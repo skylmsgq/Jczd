@@ -1,0 +1,222 @@
+[ 2014-10-18T12:16:31+08:00 ] ::1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.001683s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.001376s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.001530s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.001703s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.001411s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.001219s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.001108s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.000717s ]
+ERR: 1146:Table 'test.ea_banner' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ea_banner`
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000135s ]
+ERR: 1146:Table 'test.ea_banner' doesn't exist
+ [ SQL语句 ] : SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2014-10-18T12:17:03+08:00 ] ::1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.002164s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 6 )  [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: function /Users/zhanghonglun/Desktop/git_pro/Jczd/Application/Runtime/Cache/Home/2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2014-10-18T12:17:07+08:00 ] ::1 /Jczd/index.php/Home/Notice/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.030462s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice`  [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: function /Users/zhanghonglun/Desktop/git_pro/Jczd/Application/Runtime/Cache/Home/16012e40a7f6b510e9943e72b2944ba3.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2014-10-18T12:17:09+08:00 ] ::1 /Jczd/index.php/Home/Policy/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.144753s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy`  [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: function /Users/zhanghonglun/Desktop/git_pro/Jczd/Application/Runtime/Cache/Home/adfd36100f76e42545b114ace7a8f9b1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2014-10-18T12:17:11+08:00 ] ::1 /Jczd/index.php/Home/Index/handleArticle/type/policy/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.068119s ]
+SQL: SELECT * FROM `ea_policy` WHERE ( `id` = 4 )  [ RunTime:0.000559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: function /Users/zhanghonglun/Desktop/git_pro/Jczd/Application/Runtime/Cache/Home/2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2014-10-18T12:27:48+08:00 ] ::1 /Jczd/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_function` [ RunTime:0.002367s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_function` ORDER BY id desc LIMIT 6   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `ea_info` [ RunTime:0.001488s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_info` ORDER BY id desc LIMIT 6   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `ea_news` [ RunTime:0.001402s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_news` ORDER BY id desc LIMIT 6   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.001275s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice` ORDER BY id desc LIMIT 6   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `ea_policy` [ RunTime:0.001265s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_policy` ORDER BY id desc LIMIT 6   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `ea_report` [ RunTime:0.001433s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_report` ORDER BY id desc LIMIT 6   [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `ea_law` [ RunTime:0.001446s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_law` ORDER BY id desc LIMIT 6   [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `ea_banner` [ RunTime:0.001752s ]
+SQL: SELECT `id`,`title`,`picture` FROM `ea_banner` ORDER BY id desc LIMIT 5   [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2014-10-18T12:28:01+08:00 ] ::1 /Jczd/index.php/Home/Notice/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.002442s ]
+SQL: SELECT `id`,`title`,`updated_at` FROM `ea_notice`  [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: function /Users/zhanghonglun/Desktop/git_pro/Jczd/Application/Runtime/Cache/Home/16012e40a7f6b510e9943e72b2944ba3.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-10-18T12:28:02+08:00 ] ::1 /Jczd/index.php/Home/Index/handleArticle/type/notice/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_notice` [ RunTime:0.001834s ]
+SQL: SELECT * FROM `ea_notice` WHERE ( `id` = 3 )  [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: function /Users/zhanghonglun/Desktop/git_pro/Jczd/Application/Runtime/Cache/Home/2c9038849a4cfa4ba0dd5c12c5d5afc6.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+

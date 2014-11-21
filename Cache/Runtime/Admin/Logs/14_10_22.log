@@ -1,0 +1,434 @@
+[ 2014-10-22T14:07:36+08:00 ] ::1 /Jczd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.026204s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2014-10-22T14:07:36+08:00 ] ::1 /Jczd/admin.php/Public/verifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.001964s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-10-22T14:07:41+08:00 ] ::1 /Jczd/admin.php/Public/verifyCode.html?rand=0.0006480251904577017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002406s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2014-10-22T14:07:47+08:00 ] ::1 /Jczd/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002788s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_admin` WHERE ( email='skylmsgq@sjtu.edu.cn' ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `email` = 'skylmsgq@sjtu.edu.cn' ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_admin` WHERE ( `email` = 'skylmsgq@sjtu.edu.cn' ) AND ( `is_active` = 1 ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: UPDATE `ea_admin` SET `last_login_at`=1413958067 WHERE ( id=1 ) [ RunTime:0.000574s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/AdminService.class.php on line 113 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 62 行.
+
+[ 2014-10-22T14:07:49+08:00 ] ::1 /Jczd/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.001917s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000328s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 184 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.059243s ]
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2014-10-22T14:07:58+08:00 ] ::1 /Jczd/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.001598s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000259s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 184 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be of the type array, null given, called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.019282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_model` LIMIT 1   [ RunTime:0.000351s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.001634s ]
+SQL: SELECT * FROM `ea_model` LIMIT 0,10   [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `ea_field` [ RunTime:0.029995s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000385s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000256s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='4' )  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='5' )  [ RunTime:0.000199s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='6' )  [ RunTime:0.000201s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='7' )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='8' )  [ RunTime:0.000228s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='9' )  [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `ea_common` [ RunTime:0.000965s ]
+ERR: 0:Table 'test.ea_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ea_common`
+SQL: SELECT COUNT(*) FROM ea_function [ RunTime:0.000293s ]
+SQL: SELECT COUNT(*) FROM ea_info [ RunTime:0.000183s ]
+SQL: SELECT COUNT(*) FROM ea_report [ RunTime:0.000154s ]
+SQL: SELECT COUNT(*) FROM ea_news [ RunTime:0.000127s ]
+SQL: SELECT COUNT(*) FROM ea_notice [ RunTime:0.000127s ]
+SQL: SELECT COUNT(*) FROM ea_policy [ RunTime:0.000123s ]
+SQL: SELECT COUNT(*) FROM ea_law [ RunTime:0.000123s ]
+SQL: SELECT COUNT(*) FROM ea_banner [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2014-10-22T14:08:09+08:00 ] ::1 /Jczd/admin.php/Models/show/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.001960s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000304s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 184 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000510s ]
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.001705s ]
+SQL: SELECT * FROM `ea_model` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `ea_field` [ RunTime:0.001809s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='9' )  [ RunTime:0.000355s ]
+SQL: SELECT COUNT(*) FROM ea_banner [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `ea_input` [ RunTime:0.002487s ]
+SQL: SELECT `show_order` FROM `ea_input` WHERE ( field_id=50 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT `show_order` FROM `ea_input` WHERE ( field_id=51 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SELECT `show_order` FROM `ea_input` WHERE ( field_id=52 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT `show_order` FROM `ea_input` WHERE ( field_id=53 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT `show_order` FROM `ea_input` WHERE ( field_id=54 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT `show_order` FROM `ea_input` WHERE ( field_id=55 ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT `show_order` FROM `ea_input` WHERE ( field_id=56 ) LIMIT 1   [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/e5046c4c28be6fa397cd3b7b967a4a39.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003559s ]
+
+[ 2014-10-22T16:01:27+08:00 ] ::1 /Jczd/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.001511s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2014-10-22T16:01:28+08:00 ] ::1 /Jczd/admin.php/Public/verifyCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.015457s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2014-10-22T16:01:30+08:00 ] ::1 /Jczd/admin.php/Public/verifyCode.html?rand=0.4258048413321376
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.001985s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2014-10-22T16:01:34+08:00 ] ::1 /Jczd/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.001950s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_admin` WHERE ( email='skylmsgq@sjtu.edu.cn' ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `email` = 'skylmsgq@sjtu.edu.cn' ) LIMIT 1   [ RunTime:0.000199s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_admin` WHERE ( `email` = 'skylmsgq@sjtu.edu.cn' ) AND ( `is_active` = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: UPDATE `ea_admin` SET `last_login_at`=1413964894 WHERE ( id=1 ) [ RunTime:0.000564s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/AdminService.class.php on line 113 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 62 行.
+
+[ 2014-10-22T16:01:36+08:00 ] ::1 /Jczd/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002025s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000265s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 184 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000288s ]
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/55843b8195cd32862e5dfa640df6e51d.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2014-10-22T16:01:37+08:00 ] ::1 /Jczd/admin.php/Models/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2048] Declaration of Home\Controller\ModelsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ea_admin` [ RunTime:0.002081s ]
+SQL: SELECT * FROM `ea_admin` WHERE ( `id` = 1 ) AND ( `is_super` = 1 ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/AdminService.class.php on line 161 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 62 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 184 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: select node.id,node.name from ea_role as role,ea_role_admin as user,ea_access as access ,ea_node as node where user.user_id='1' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 226 行.
+NOTIC: [8] Undefined index: ADMIN /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 243 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2048] Only variables should be passed by reference /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 251 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\CommonController::getPagination(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 3 for Home\Controller\CommonController::getPagination(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [2] Missing argument 4 for Home\Controller\CommonController::getPagination(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/ModelsController.class.php on line 14 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 132 行.
+NOTIC: [8] Undefined variable: where /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 135 行.
+NOTIC: [4096] Argument 1 passed to Home\Service\CommonService::getCount() must be of the type array, null given, called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php on line 135 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Service/CommonService.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.001620s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ea_model` LIMIT 1   [ RunTime:0.000233s ]
+NOTIC: [2] Missing argument 3 for Org\Util\Page::__construct(), called in /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php on line 137 and defined /Users/zhanghonglun/Desktop/git_pro/Jczd/ThinkPHP/Library/Org/Util/Page.class.php 第 46 行.
+NOTIC: [8] Undefined variable: where /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: fields /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 141 行.
+NOTIC: [8] Undefined variable: order /Users/zhanghonglun/Desktop/git_pro/Jczd/Admin/Home/Controller/CommonController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `ea_model` [ RunTime:0.001547s ]
+SQL: SELECT * FROM `ea_model` LIMIT 0,10   [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `ea_field` [ RunTime:0.002407s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='2' )  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='3' )  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='4' )  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='5' )  [ RunTime:0.000219s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='6' )  [ RunTime:0.000256s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='7' )  [ RunTime:0.000218s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='8' )  [ RunTime:0.000221s ]
+SQL: SELECT * FROM `ea_field` WHERE ( 1=1 AND model_id='9' )  [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `ea_common` [ RunTime:0.000979s ]
+ERR: 0:Table 'test.ea_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ea_common`
+SQL: SELECT COUNT(*) FROM ea_function [ RunTime:0.000148s ]
+SQL: SELECT COUNT(*) FROM ea_info [ RunTime:0.000111s ]
+SQL: SELECT COUNT(*) FROM ea_report [ RunTime:0.000117s ]
+SQL: SELECT COUNT(*) FROM ea_news [ RunTime:0.000127s ]
+SQL: SELECT COUNT(*) FROM ea_notice [ RunTime:0.000112s ]
+SQL: SELECT COUNT(*) FROM ea_policy [ RunTime:0.000110s ]
+SQL: SELECT COUNT(*) FROM ea_law [ RunTime:0.000109s ]
+SQL: SELECT COUNT(*) FROM ea_banner [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant current_account - assumed 'current_account' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' /Users/zhanghonglun/Desktop/git_pro/Jczd/Cache/Runtime/Admin/Cache/Home/b6a226195b1c4562e126917b9e68aeda.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
