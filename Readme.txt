@@ -1,10 +1,10 @@
-===组件===
+﻿===组件===
 jQuery version 1.11.1
 Thinkphp version 3.2
 
 ===安装步骤===
 
-1.安装apache，php，mysql环境。
+1.安装apache，php，mysql环境。由于后台登陆需要输入验证码，php需安装GD图形库。
 
 2.建立数据库：mysql中新建数据库，数据库名Jczd,选择编码方式为utf8-general—ci。
 
