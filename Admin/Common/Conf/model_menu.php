@@ -150,36 +150,36 @@ return array (
       ),
     ),
   ),
-  'Function' => 
-  array (
-    'name' => '机构职能管理',
-    'target' => 'Function/index',
-    'sub_menu' => 
-    array (
-      0 => 
-      array (
-        'item' => 
-        array (
-          'Function/index' => '机构职能管理',
-        ),
-      ),
-      1 => 
-      array (
-        'item' => 
-        array (
-          'Function/add' => '添加机构职能',
-        ),
-      ),
-      2 => 
-      array (
-        'item' => 
-        array (
-          'Function/edit' => '编辑机构职能',
-        ),
-        'hidden' => true,
-      ),
-    ),
-  ),
+  // 'Function' => 
+  // array (
+  //   'name' => '机构职能管理',
+  //   'target' => 'Function/index',
+  //   'sub_menu' => 
+  //   array (
+  //     0 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Function/index' => '机构职能管理',
+  //       ),
+  //     ),
+  //     1 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Function/add' => '添加机构职能',
+  //       ),
+  //     ),
+  //     2 => 
+  //     array (
+  //       'item' => 
+  //       array (
+  //         'Function/edit' => '编辑机构职能',
+  //       ),
+  //       'hidden' => true,
+  //     ),
+  //   ),
+  // ),
   'Banner' => 
   array (
     'name' => '图片管理',
@@ -235,6 +235,156 @@ return array (
         'item' => 
         array (
           'Inform/edit' => '编辑通知',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
+  'Food' => 
+  array (
+    'name' => '食品管理',
+    'target' => 'Food/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Food/index' => '食品管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Food/add' => '添加食品',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Food/edit' => '编辑食品',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
+  'Drug' => 
+  array (
+    'name' => '药品管理',
+    'target' => 'Drug/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Drug/index' => '药品管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Drug/add' => '添加药品',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Drug/edit' => '编辑药品',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
+  'Cosmetics' => 
+  array (
+    'name' => '化妆品管理',
+    'target' => 'Cosmetics/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Cosmetics/index' => '化妆品管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Cosmetics/add' => '添加化妆品',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Cosmetics/edit' => '编辑化妆品',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
+  'Instrument' => 
+  array (
+    'name' => '医疗器械管理',
+    'target' => 'Instrument/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Instrument/index' => '医疗器械管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Instrument/add' => '添加医疗器械',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Instrument/edit' => '编辑医疗器械',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
+  'Authentication' => 
+  array (
+    'name' => '审评认证管理',
+    'target' => 'Authentication/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Authentication/index' => '审评认证管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Authentication/add' => '添加审评认证',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Authentication/edit' => '编辑审评认证',
         ),
         'hidden' => true,
       ),

@@ -97,7 +97,7 @@ html, body {
     background:url(../../images/admin/x-bg.gif) repeat-x left -80px;
 }
 .menu li {
-    min-width: 100px;
+    min-width: 95px;
     margin-left: 0px;
     float:left;
     text-align:center;

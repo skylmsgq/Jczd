@@ -9,16 +9,16 @@ if (false === $modelMenu) {
 // 菜单项配置
 $systemMenu = array(
     // 后台首页
-    'Index' => array(
-        'name' => '首页',
-        'target' => 'Index/index',
-        'sub_menu' => array(
-            array('item' => array('Index/index' => '系统信息')),
-            array('item' => array('Index/editPassword' => '修改密码')),
-            array('item' => array('Index/siteEdit' => '站点信息')),
-            array('item' => array('Cache/index' => '清除缓存'))
-        )
-    ),
+    // 'Index' => array(
+    //     'name' => '首页',
+    //     'target' => 'Index/index',
+    //     'sub_menu' => array(
+    //         array('item' => array('Index/index' => '系统信息')),
+    //         array('item' => array('Index/editPassword' => '修改密码')),
+    //         array('item' => array('Index/siteEdit' => '站点信息')),
+    //         array('item' => array('Cache/index' => '清除缓存'))
+    //     )
+    // ),
 
     // 缓存管理
     // 'Cache' => array(

@@ -25,9 +25,9 @@ img {
     width: 1004px;
     margin: 0 auto;
 }
-.search_box img {
+.search_box{
     position: relative;
-    left: 21px;
+    /*left: 21px;*/
 }
 .pages {
     background-color: rgba(240, 240, 240, 0.8);

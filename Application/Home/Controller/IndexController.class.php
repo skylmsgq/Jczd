@@ -6,7 +6,7 @@ header("Content-type: text/html; charset=utf-8");
 
 class IndexController extends Controller {
     public function index(){
-    	$this->function = M('function')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
+    	$this->function = M('function')->order('id asc')->limit(6)->field('id,title,updated_at')->select();
     	$this->info = M('info')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
     	$this->news = M('news')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
     	$this->notice = M('notice')->order('id desc')->limit(6)->field('id,title,updated_at')->select();

@@ -7,7 +7,7 @@ class FunctionController extends Controller {
     	$page = new \Org\Util\Page($count, 15);
     	$limit = $page->firstRow.','.$page->listRows;
 
-    	$this->function = M('function')->order('id desc')->limit($limit)->field('id,title,updated_at')->select();
+    	$this->function = M('function')->order('id asc')->limit($limit)->field('id,title,updated_at')->select();
     	$this->page = $page->show();
     	$this->display('Function/index');
     }

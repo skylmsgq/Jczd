@@ -23,7 +23,7 @@ a:hover {
     text-decoration: none
 }
 .wrap {
-    width: 960px;
+    width: 1003px;
     margin: 0 auto;
 }
 /**top**/
@@ -42,7 +42,7 @@ a:hover {
     padding-bottom: 0px;
 }
 .search_box {
-    margin-left: -43px;
+    /*margin-left: -43px;*/
 }
 .search {
     width: 520px;
