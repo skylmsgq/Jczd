@@ -82,15 +82,15 @@ $systemMenu = array(
     // ),
 
     // 字段管理
-    'Fields' => array(
-        'name' => '字段管理',
-        'target' => 'Fields/edit',
-        'mapping' => 'Models',
-        'sub_menu' => array(
-            array('item' => array('Fields/add' => '添加字段')),
-            array('item' => array('Fields/edit' => '编辑字段')),
-        )
-    ),
+    // 'Fields' => array(
+    //     'name' => '字段管理',
+    //     'target' => 'Fields/edit',
+    //     'mapping' => 'Models',
+    //     'sub_menu' => array(
+    //         array('item' => array('Fields/add' => '添加字段')),
+    //         array('item' => array('Fields/edit' => '编辑字段')),
+    //     )
+    // ),
 
     // 数据管理
     // 'Data' => array(

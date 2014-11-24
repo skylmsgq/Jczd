@@ -32,7 +32,7 @@ return array (
   ),
   'News' => 
   array (
-    'name' => '食品药品监管新闻管理',
+    'name' => '监管新闻管理',
     'target' => 'News/index',
     'sub_menu' => 
     array (
@@ -150,36 +150,6 @@ return array (
       ),
     ),
   ),
-  // 'Function' => 
-  // array (
-  //   'name' => '机构职能管理',
-  //   'target' => 'Function/index',
-  //   'sub_menu' => 
-  //   array (
-  //     0 => 
-  //     array (
-  //       'item' => 
-  //       array (
-  //         'Function/index' => '机构职能管理',
-  //       ),
-  //     ),
-  //     1 => 
-  //     array (
-  //       'item' => 
-  //       array (
-  //         'Function/add' => '添加机构职能',
-  //       ),
-  //     ),
-  //     2 => 
-  //     array (
-  //       'item' => 
-  //       array (
-  //         'Function/edit' => '编辑机构职能',
-  //       ),
-  //       'hidden' => true,
-  //     ),
-  //   ),
-  // ),
   'Banner' => 
   array (
     'name' => '图片管理',
@@ -385,6 +355,36 @@ return array (
         'item' => 
         array (
           'Authentication/edit' => '编辑审评认证',
+        ),
+        'hidden' => true,
+      ),
+    ),
+  ),
+  'Download' => 
+  array (
+    'name' => '下载管理',
+    'target' => 'Download/index',
+    'sub_menu' => 
+    array (
+      0 => 
+      array (
+        'item' => 
+        array (
+          'Download/index' => '下载管理',
+        ),
+      ),
+      1 => 
+      array (
+        'item' => 
+        array (
+          'Download/add' => '添加下载',
+        ),
+      ),
+      2 => 
+      array (
+        'item' => 
+        array (
+          'Download/edit' => '编辑下载',
         ),
         'hidden' => true,
       ),

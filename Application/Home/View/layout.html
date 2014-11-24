@@ -68,6 +68,8 @@
                 </li>
                 <li><a href="{:U('Law/index')}" title="">法律法规</a>
                 </li>
+                <li><a href="{:U('File/index')}" title="">下载中心</a>
+                </li>
             </ul>
             <ul class="nav_right">
                 <li><a href="javascript:bookmark()">加入收藏夹</a>
@@ -148,30 +150,14 @@
                     <img class="tousu" src="__PUBLIC__/images/app/tousu.jpg">
                 </div>
                 <div class="menuRight">
-                    <h1>文件下载
-                        <img class="titlePic" src="__PUBLIC__/images/app/download.png" alt="">
+                    <h1>下载中心
+                        <img class="titlePic" src="__PUBLIC__/images/app/download.png" alt=""><a class="more" href="{:U('file/index')}" title="文件下载" target="blank">More</a>
                     </h1>
                     <ul>
-                        <li>
-                            <a href="http://www.ada.gov.cn/zhxx/cyxz/sccbg/" target='blank'>
-                                <img class="button" src="__PUBLIC__/images/app/button.png">省食品药品监督管理局表格下载</a>
-                        </li>
-                        <li>
-                            <a href="/n1105/n235647/n235856/n236654/n4994426/index.html" target='blank'>
-                                <img class="button" src="__PUBLIC__/images/app/button.png">市食品药品监督管理局表格下载</a>
-                        </li>
-                        <li>
-                            <a href="http://yjj.hefei.gov.cn/n1105/n235647/n235856/n236654/n4994442/index.html" target='blank'>
-                                <img class="button" src="__PUBLIC__/images/app/button.png">其他表格下载</a>
-                        </li>
-                        <li>
-                            <a href="http://yjj.hefei.gov.cn/n1105/n235647/n235856/n236654/n4994472/index.html" target='blank'>
-                                <img class="button" src="__PUBLIC__/images/app/button.png">药品类兴奋剂查询</a>
-                        </li>
-                        <li>
-                            <a href="http://yjj.hefei.gov.cn/n1105/n235647/n235856/n236654/n30255367/index.html" target='blank'>
-                                <img class="button" src="__PUBLIC__/images/app/button.png">医疗器械查询</a>
-                        </li>
+                        <foreach name='file' item='v'>
+                            <li><a href="/Jczd/{$v.file}" title="">{$v.title}</a>
+                            </li>
+                        </foreach>
                     </ul>
                 </div>
 

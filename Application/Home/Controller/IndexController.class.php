@@ -15,6 +15,7 @@ class IndexController extends Controller {
         $this->law = M('law')->order('id desc')->limit(6)->field('id,title,updated_at')->select();
         $this->banner = M('banner') ->order('id desc')->limit(5)->field('id,title,picture')->select();
         $this->inform = M('inform') ->order('id desc')->limit(1)->field('id,image')->select();
+        $this->file = M('download') ->order('id desc')->limit(4)->field('id,title,file')->select();
     	$this->display('Index/index');
     }
 
